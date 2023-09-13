@@ -14,6 +14,7 @@ def prompt4conversation(prompt,context):
                         WRITE THE ANSWER :"""
     return final_prompt
 
+
 def prompt4Code(prompt, context, solution):
     final_prompt = f"""GENERAL INFORMATION : 
                         ISTRUCTION : IN YOUR ANSWER NEVER INCLUDE THE USER QUESTION or MESSAGE , THE CORRECT ANSWER CONTAINS CODE YOU ARE OBLIGED TO INSERT IT IN YOUR NEW ANSWER!
@@ -32,4 +33,3 @@ def prompt4Context(prompt, context, solution):
                         THIS IS THE CORRECT ANSWER : ({solution}) 
                         WITHOUT CHANGING ANYTHING OF CORRECT ANSWER , MAKE THE ANSWER MORE DETALIED:"""
     return final_prompt
-s
