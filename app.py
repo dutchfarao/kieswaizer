@@ -1,10 +1,8 @@
-import io
 import random
 import shutil
 import string
-from zipfile import ZipFile
+import time
 import streamlit as st
-from streamlit_extras.colored_header import colored_header
 from streamlit_extras.add_vertical_space import add_vertical_space
 from hugchat import hugchat
 from hugchat.login import Login
@@ -13,25 +11,13 @@ import asyncio
 loop = asyncio.new_event_loop()
 asyncio.set_event_loop(loop)
 from langchain.text_splitter import CharacterTextSplitter
-from backend.prompt_template import prompt4Code, prompt4Context,  prompt4conversation
-# from backend.promptTemplate import prompt4conversationInternet, prompt4conversation
-# FOR DEVELOPMENT NEW PLUGIN 
-# from promptTemplate import yourPLUGIN
-# from exportchat import export_chat
+from backend.prompt_template import START_UP_MESSAGE, VOTER_PROFILE_1, VOTER_PROFILE_2, VOTER_PROFILE_3, prompt_for_extra_detail,  prompt4conversation
 from langchain.vectorstores import Chroma
 from langchain.chains import RetrievalQA
 from backend.custom_huggingchat import CustomHuggingChat
 from langchain.embeddings import HuggingFaceHubEmbeddings
-# from youtube_transcript_api import YouTubeTranscriptApi
-import requests
-from bs4 import BeautifulSoup
 import pdfplumber
 import docx2txt
-# from duckduckgo_search import DDGS
-from itertools import islice
-from os import path
-# from pydub import AudioSegment
-import os
 
 
 hf = None
@@ -48,7 +34,7 @@ if 'hf' not in st.session_state:
 
 
 st.set_page_config(
-    page_title="Kies wijzer, gebruik kieswAIzer💬", page_icon="🧠", layout="wide", initial_sidebar_state="expanded"
+    page_title="Kies wijzer, gebruik kieswAIzer 🧠", page_icon="🧠", layout="wide", initial_sidebar_state="expanded"
 )
 
 st.markdown('<style>.css-w770g5{\
@@ -68,7 +54,7 @@ st.markdown('<style>.css-w770g5{\
 
 # Sidebar contents for logIN, choose plugin, and export chat
 with st.sidebar:
-    st.title('🧠 StemwAIzer 🧠')
+    st.title('Kies wijzer, gebruik kieswAIzer 🧠')
     
     if 'hf_email' not in st.session_state or 'hf_pass' not in st.session_state:
         st.session_state['admin_mode'] = 'inactive'
@@ -107,7 +93,7 @@ with st.sidebar:
                             st.session_state['admin_mode'] = 'active'
                         except AssertionError as e:
                             st.error(e)
-                            st.info("⚠️ Please check your credentials and try again.")
+                            st.info("Are you sure you're an admin? ;)")
                             from time import sleep
                             sleep(3)
                             del st.session_state['hf_email']
@@ -123,13 +109,25 @@ with st.sidebar:
                     st.session_state['chatbot'].change_conversation(id)
 
                     st.session_state['conversation'] = id
-                    # Generate empty lists for generated and past.
+                    if 'start_up' not in st.session_state:
+                        time.sleep(1)
+                        st.session_state['start_up'] = [START_UP_MESSAGE]
+                        st.session_state.start_up.append(VOTER_PROFILE_1)
+                        st.session_state.start_up.append(VOTER_PROFILE_2)
+                        st.session_state.start_up.append(VOTER_PROFILE_3)
+
+
+
+
+
+                    
+
                     ## generated stores AI generated responses
                     if 'generated' not in st.session_state:
-                        st.session_state['generated'] = ["Hi there, I'm **KieswAIzer**, How may I help you ? "]
+                        st.session_state['generated'] = ["Awesome! Let's start."]
                     ## past stores User's questions
                     if 'past' not in st.session_state:
-                        st.session_state['past'] = ['Hi!']
+                        st.session_state['past'] = ["I'm ready!"]
 
                     st.session_state['LLM'] =  CustomHuggingChat(email=st.session_state['hf_email'], psw=st.session_state['hf_pass'])
                     
@@ -150,8 +148,43 @@ with st.sidebar:
 
 
 
+        if st.session_state['admin_mode'] == 'inactive' and 'pdf' not in st.session_state:
+            documents = []
+            with st.spinner('Reading political manifestos ...'):
+                political_manifestos = open('data/political_parties.txt')
+                documents += [political_manifestos.read()]
+            st.session_state['documents'] = documents
+            # Split documents into chunks
+            with st.spinner('Summarizing standpoints and ideals ...'):
+                text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=0)
+                texts = text_splitter.create_documents(documents)
+                # Select embeddings
+                embeddings = st.session_state['hf']
+                # Create a vectorstore from documents
+                random_str = ''.join(random.choices(string.ascii_uppercase + string.digits, k=10))
+                db = Chroma.from_documents(texts, embeddings, persist_directory="./chroma_db_" + random_str)
 
-    # DOCUMENTS PLUGIN
+            with st.spinner('Learning ...'):
+                # save vectorstore
+                db.persist()
+                #create .zip file of directory to download
+                shutil.make_archive("./chroma_db_" + random_str, 'zip', "./chroma_db_" + random_str)
+                # save in session state and download
+                st.session_state['db'] = "./chroma_db_" + random_str + ".zip" 
+            
+            with st.spinner('Almost done ...'):
+                # Create retriever interface
+                retriever = db.as_retriever()
+                # Create QA chain
+                qa = RetrievalQA.from_chain_type(llm=st.session_state['LLM'], chain_type='stuff', retriever=retriever,  return_source_documents=True)
+                st.session_state['pdf'] = qa
+
+            st.experimental_rerun()
+
+
+
+
+    # Plugin for admin
             if st.session_state['plugin'] == "Upload documents" and 'documents' not in st.session_state:
                 with st.expander("Upload documents", expanded=True):  
                     upload_pdf = st.file_uploader("Upload your document", type=['txt', 'pdf', 'docx'], accept_multiple_files=True)
@@ -159,7 +192,6 @@ with st.sidebar:
                         documents = []
                         with st.spinner(' Reading documents...'):
                             for upload_pdf in upload_pdf:
-                                print(upload_pdf.type)
                                 if upload_pdf.type == 'text/plain':
                                     documents += [upload_pdf.read().decode()]
                                 elif upload_pdf.type == 'application/pdf':
@@ -243,10 +275,10 @@ loading_container = st.container()
 with input_container:
         input_text = st.chat_input("🧑‍💻 Write here 👇", key="input")
 
-with data_view_container:
-    if 'pdf' in st.session_state:
-        with st.expander(" View your **documents**"):
-            st.write(st.session_state['documents'])
+if st.session_state['admin_mode'] == 'active'and 'pdf' in st.session_state:
+    with data_view_container:
+            with st.expander(" View your **documents**"):
+                st.write(st.session_state['documents'])
             
 # Response output
 ## Function for taking user prompt as input followed by producing AI generated responses
@@ -256,37 +288,60 @@ def generate_response(prompt):
 
     with loading_container:
 
-        if st.session_state['plugin'] == "Upload documents" and 'pdf' in st.session_state:
-            #get only last message
+        if st.session_state['admin_mode'] == 'inactive'and 'pdf' in st.session_state:
+            # Process below applies to normal user mode
             context = f"User: {st.session_state['past'][-1]}\nBot: {st.session_state['generated'][-1]}\n"
-            with st.spinner('🚀 Using tool to get information...'):
+            with st.spinner('Comparing your voter profile with party manifestos...'):
                 result = st.session_state['pdf']({"query": prompt})
                 solution = result["result"]
                 if len(solution.split()) > 110:
-                    make_better = False
                     final_prompt = solution
                     if 'source_documents' in result and len(result["source_documents"]) > 0:
                         final_prompt += "\n\n✅Source:\n" 
                         for d in result["source_documents"]:
                             final_prompt += "- " + str(d) + "\n"
                 else:
-                    final_prompt = prompt4Context(prompt, context, solution)
+                    final_prompt = prompt_for_extra_detail(prompt, context, solution)
                     if 'source_documents' in result and len(result["source_documents"]) > 0:
                         source += "\n\n✅Source:\n"
                         for d in result["source_documents"]:
                             source += "- " + str(d) + "\n"                    
+
+
+
+
         else:
-            #get last message if exists
-            if len(st.session_state['past']) == 1:
+            # Process below applies to admin mode
+            if st.session_state['plugin'] == "Upload documents" and 'pdf' in st.session_state:
                 context = f"User: {st.session_state['past'][-1]}\nBot: {st.session_state['generated'][-1]}\n"
-            else:
-                context = f"User: {st.session_state['past'][-2]}\nBot: {st.session_state['generated'][-2]}\nUser: {st.session_state['past'][-1]}\nBot: {st.session_state['generated'][-1]}\n"
+                with st.spinner('🚀 Using tool to get information...'):
+                    result = st.session_state['pdf']({"query": prompt})
+                    solution = result["result"]
+                    if len(solution.split()) > 110:
+                        final_prompt = solution
+                        if 'source_documents' in result and len(result["source_documents"]) > 0:
+                            final_prompt += "\n\n✅Source:\n" 
+                            for d in result["source_documents"]:
+                                final_prompt += "- " + str(d) + "\n"
+                    else:
+                        final_prompt = prompt_for_extra_detail(prompt, context, solution)
+                        if 'source_documents' in result and len(result["source_documents"]) > 0:
+                            source += "\n\n✅Source:\n"
+                            for d in result["source_documents"]:
+                                source += "- " + str(d) + "\n"        
             
-            final_prompt = prompt4conversation(prompt, context)
+            else:
+                #get last message if exists
+                if len(st.session_state['past']) == 1:
+                    context = f"User: {st.session_state['past'][-1]}\nBot: {st.session_state['generated'][-1]}\n"
+                else:
+                    context = f"User: {st.session_state['past'][-2]}\nBot: {st.session_state['generated'][-2]}\nUser: {st.session_state['past'][-1]}\nBot: {st.session_state['generated'][-1]}\n"
+                
+                final_prompt = prompt4conversation(prompt, context)
 
 
 
-        with st.spinner('🚀 Generating response...'):
+        with st.spinner('Writing response ...'):
             response = final_prompt            
 
     return response
@@ -301,7 +356,11 @@ with response_container:
 
     #print message in normal order, first user then bot
     if 'generated' in st.session_state:
-        print(st.session_state)
+        for i in range(len(st.session_state['start_up'])):
+            with st.chat_message(name="assistant"):
+                time.sleep(2)
+                st.markdown(st.session_state['start_up'][i])
+
         if st.session_state['generated']:
             for i in range(len(st.session_state['generated'])):
                 with st.chat_message(name="user"):
@@ -323,6 +382,6 @@ with response_container:
             
             
     else:
-        st.info("👋 Hey , we are very happy to see you here 🤗")
-        st.info("👉 Please Login to continue, click on top left corner to login 🚀")
+        st.info("👋 Hey , happy to see that you're planning to vote the upcoming elections!")
+        st.info("👉 Please login on the right to continue. ")
         st.error("👉 If you are not registered on Hugging Face, please register first and then login 🤗")
