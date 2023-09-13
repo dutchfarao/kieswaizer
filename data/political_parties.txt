@@ -1,0 +1,160 @@
+Political party	Ideals	Ideal or Political Matters/Actions or main issue:
+PVV (Partij voor de Vrijheid) 	Defending freedom of speech and expression	Ideal
+PVV (Partij voor de Vrijheid) 	Opposing Islamization and promoting Western values	Ideal
+PVV (Partij voor de Vrijheid) 	Protecting national sovereignty and opposing EU interference	Ideal
+PVV (Partij voor de Vrijheid) 	Supporting law and order and crackdown on crime	Ideal
+PVV (Partij voor de Vrijheid) 	Promoting individual responsibility and self-reliance	Ideal
+PVV (Partij voor de Vrijheid) 	Fostering economic growth through entrepreneurship and free market principles	Ideal
+PVV (Partij voor de Vrijheid) 	Advocating for direct democracy and citizen participation in decision making processes	Ideal
+PVV (Partij voor de Vrijheid) 	Strengthening border controls and reducing immigration from non-Western countries	Political Matter/Action
+PVV (Partij voor de Vrijheid) 	Banning face coverings in public spaces	Political Matter/Action
+PVV (Partij voor de Vrijheid) 	Criminalizing hate preachers and closing radical mosques	Political Matter/Action
+PVV (Partij voor de Vrijheid) 	Withdrawing from international treaties that compromise national sovereignty	Political Matter/Action
+PVV (Partij voor de Vrijheid) 	Implementing tax cuts for businesses and individuals	Political Matter/Action
+PVV (Partij voor de Vrijheid) 	Abolishing inheritance tax and wealth tax	Political Matter/Action
+PVV (Partij voor de Vrijheid) 	Introducing a flat tax system	Political Matter/Action
+PVV (Partij voor de Vrijheid) 	Repatriating migrants who refuse to integrate or commit crimes	Political Matter/Action
+PVV (Partij voor de Vrijheid) 	Scrapping the Development Aid budget and redirecting funds towards domestic priorities	Political Matter/Action
+PVV (Partij voor de Vrijheid) 	Reducing foreign aid to countries that persecute Christians or support terrorism	Political Matter/Action
+PVV (Partij voor de Vrijheid) 	Abandoning the euro and returning to the guilder as the national currency	Political Matter/Action
+PVV (Partij voor de Vrijheid) 	Establishing an independent Central Bank focused solely on maintaining price stability	Political Matter/Action
+PVV (Partij voor de Vrijheid) 	Encouraging voluntary repatriation of refugees and asylum seekers	Political Matter/Action
+PVV (Partij voor de Vrijheid) 	Clamping down on human trafficking and sex work	Political Matter/Action
+PVV (Partij voor de Vrijheid) 	Legalizing euthanasia under strict conditions	Political Matter/Action
+PVV (Partij voor de Vrijheid) 	Prohibiting abortion after the twelfth week of pregnancy except in cases of severe medical emergency	Political Matter/Action
+PVV (Partij voor de Vrijheid) 	Preserving Dutch national identity and culture through policies that prioritize native citizens' interests and values, tackling concerns related to mass migration, assimilation, growing influence of Islamic ideology on society	Main issue
+50Plus	Promotion of active citizenship among seniors	Ideal
+50Plus	Increasing participation of seniors in society	Ideal
+50Plus	Ensuring social cohesion between generations	Ideal
+50Plus	Establishment of an advisory council for seniors within government	Political Matter/Action
+50Plus	Introduction of a "Seniors Card" to give discounts on public transportation, culture, sports, and education	Political Matter/Action
+50Plus	Development of a national action plan for preventative healthcare targeted at seniors	Political Matter/Action
+50Plus	Expansion of elderly care facilities through increased funding and cooperation with municipalities	Political Matter/Action
+50Plus	Implementation of a National Pension Guarantee Fund to protect against poverty in old age	Political Matter/Action
+50Plus	Creation of a National Care Insurance Fund to ensure access to high-quality long-term care services	Political Matter/Action
+50Plus	Introduction of a Participation Budget for Seniors to allow them to participate in decision-making processes related to their living environment	Political Matter/Action
+50Plus	Encouragement of intergenerational connections by promoting volunteer work and community service among young people	Political Matter/Action
+50Plus	The main issue that this party is best known for is its focus on issues affecting seniors and improving their quality of life.	Main issue
+ChristenUnie 	Christian values and principles guide policy making	Ideal
+ChristenUnie 	Promotion of social cohesion and solidarity	Ideal
+ChristenUnie 	Protection of human dignity and life from conception until natural death	Ideal
+ChristenUnie 	Sustainable development and care for creation	Ideal
+ChristenUnie 	International responsibility and promotion of peace and justice	Ideal
+ChristenUnie 	Strengthening family and marriage through tax benefits and support services	Political Matter/Action
+ChristenUnie 	Improving accessibility and affordability of healthcare and elderly care	Political Matter/Action
+ChristenUnie 	Investment in sustainable energy transition and climate change mitigation measures	Political Matter/Action
+ChristenUnie 	Enhancing integration of immigrants and promoting multiculturalism	Political Matter/Action
+ChristenUnie 	Reforming the criminal justice system towards restorative justice and rehabilitation	Political Matter/Action
+ChristenUnie 	Support for small businesses and entrepreneurship through tax relief and training programs	Political Matter/Action
+ChristenUnie 	Promotion of fair trade and corporate social responsibility	Political Matter/Action
+ChristenUnie 	Development aid focused on poverty reduction, education, and gender equality	Political Matter/Action
+ChristenUnie 	Opposition to euthanasia and physician-assisted suicide	Political Matter/Action
+ChristenUnie 	 The ChristenUnie is best known for its conservative stance on moral issues such as abortion, same-sex marriage, and euthanasia. They advocate for policies that uphold traditional Christian values and promote the sanctity of human life.	Main issue
+D66	Equality and equal opportunities for all citizens regardless of background or identity	Ideal
+D66	Sustainable development and addressing climate change through innovation and cooperation	Ideal
+D66	Strong international partnerships and diplomacy to tackle global challenges	Ideal
+D66	Transparent government and citizen participation in decision-making processes	Ideal
+D66	Improving accessibility and affordability of healthcare services	Political Matter/Action
+D66	Promoting sustainable energy solutions and reducing carbon emissions	Political Matter/Action
+D66	Encouraging entrepreneurship and innovation through tax benefits and investment in R&D	Political Matter/Action
+D66	Expanding childcare options and parental leave policies	Political Matter/Action
+D66	Ensuring fair housing market regulations and increasing supply of affordable homes	Political Matter/Action
+D66	Tackling poverty and income inequality by strengthening social security nets	Political Matter/Action
+D66	Reforming immigration policy to ensure safe and legal pathways for refugees and migrants	Political Matter/Action
+D66	Supporting LGBTQ+ rights and gender equality measures	Political Matter/Action
+D66	Modernizing education system to prepare students for future job markets	Political Matter/Action
+D66	Investing in public transportation infrastructure and promoting sustainable mobility	Political Matter/Action
+D66	Protecting nature reserves and biodiversity conservation efforts	Political Matter/Action
+D66	Regulating and monitoring lobbying activities to prevent undue influence on policymaking	Political Matter/Action
+D66	Developing digitalization strategies to enhance government efficiency and cybersecurity	Political Matter/Action
+D66	Strengthening EU collaboration on foreign affairs, trade, and defense	Political Matter/Action
+D66	Advocating for human rights and democratic values globally	Political Matter/Action
+D66	Facilitating intergenerational dialogues and ensuring elderly care services	Political Matter/Action
+D66	Fostering inclusive labor market practices and combatting workplace discrimination	Political Matter/Action
+D66	Encouraging corporate social responsibility and transparent business practices	Political Matter/Action
+D66	Promoting cultural diversity and integration initiatives at local levels	Political Matter/Action
+D66	Engaging citizens in participatory budgeting processes and community projects	Political Matter/Action
+D66	The main issue for D66 is to create a more equitable and inclusive society by addressing systemic barriers and providing support to marginalized groups, with a focus on education, environmental sustainability, healthcare accessibility, job security, and tax reform.	Main issue
+CDA	A strong and serviceable government	Ideal
+CDA	International cooperation and solidarity	Ideal
+CDA	Sustainability and protection of natural resources	Ideal
+CDA	Support for social organizations at national and international levels that are important in peace negotiations and upholding women's rights.	Political Matter/Action
+CDA	Promotion of fair trade through agreements based on equal playing field without unfair competition from state support for companies outside Europe.	Political Matter/Action
+CDA	Protection of the rule of law in European member states. Countries violating the rule of law lose their voting rights in the European Council and their claim to European funds and subsidies.	Political Matter/Action
+CDA	Strengthening the fight against corruption by cutting or stopping subsidies for countries responsible for the downing of flight MH17 and recognition of Russia's state liability.	Political Matter/Action
+CDA	More attention to intellectual property protection for businesses and universities, trading conditions, and individual human rights in the Netherlands' China strategy.	Political Matter/Action
+CDA	Similar changes in the EU's China strategy so that countries are not played off against each other by Chinese investments.	Political Matter/Action
+CDA	Freedom of religion as a focal point of foreign policy. Building an international coalition against religious persecution, including Christian persecution, which takes serious forms in various countries.	Political Matter/Action
+CDA	The importance of multilateral organizations such as the UN, World Bank, WTO, and WHO is under pressure in a troubled world. These institutions are indispensable for solving global problems.	Political Matter/Action
+CDA	Focus on the core tasks of these organizations, especially the UN, to increase their impact. The UN is the only platform where almost all countries in the world speak.	Political Matter/Action
+CDA	A party with Christian values that wants to be a reliable partner in times of crisis	Main issue
+FVD	Sovereign democracy	Ideal
+FVD	Rule of law	Ideal
+FVD	Direct democracy	Ideal
+FVD	Civic responsibility	Ideal
+FVD	Limited government intervention	Ideal
+FVD	Sanitation of public broadcasting (NPO)	Political Matter/Action
+FVD	Approach to judicial dictatorship	Political Matter/Action
+FVD	Restoration of power balance between democracy and judiciary by ending the use of international law and amending articles 93 and 94 of the Constitution	Political Matter/Action
+FVD	Introduction of a "Law of Judgment" to ensure laws are interpreted correctly	Political Matter/Action
+FVD	Strengthening the grip of politics on appointments of higher court members like those from the Supreme Court or Council of State	Political Matter/Action
+FVD	Implementing binding referenda	Political Matter/Action
+FVD	Introducing an Initiative Law to allow citizens to submit propositions to parliament	Political Matter/Action
+FVD	Repatriation of asylum seekers who have committed crimes	Political Matter/Action
+FVD	Tough approach towards people who commit serious crimes	Political Matter/Action
+FVD	Support for police officers and soldiers	Political Matter/Action
+FVD	Amnesty for Johan van Oldenbarneveldt and other PVV members persecuted for their opinions	Political Matter/Action
+FVD	Opposition to further European centralization and support for national sovereignty	Political Matter/Action
+FVD	Abolition of dividends for all forms of social assistance	Political Matter/Action
+FVD	Reducing the number of municipalities	Political Matter/Action
+FVD	Lowering the voting age to 16 years old	Political Matter/Action
+FVD	Promotion of direct democracy through citizen initiatives and referenda	Political Matter/Action
+FVD	The main issue seems to be restoring the power balance between democracy and the judiciary, particularly by addressing the problematic growth of international law and limiting its influence over domestic legal decision making.	Main issue
+PvdD	Equal treatment of all living beings, irrespective of their species or origin	Ideal
+PvdD	Fostering sustainability and ensuring the wellbeing of animals	Ideal
+PvdD	Prohibition of fur farming	Ideal
+PvdD	Introduction of stringent measures at slaughterhouses	Political Matter/Action
+PvdD	Augmentation of funds allocated towards conserving natural habitats	Political Matter/Action
+PvdD	Encouragement of plant-based diet through educational campaigns and financial incentives	Political Matter/Action
+PvdD	Support for small enterprises and community projects	Political Matter/Action
+PvdD	Emphasis on utilizing renewable energy resources	Political Matter/Action
+PvdD	Reinforcement of laws pertaining to wildlife smuggling	Political Matter/Action
+PvdD	Stringent punishments for acts of cruelty against animals	Political Matter/Action
+PvdD	Opposition to genetic manipulation of creatures	Political Matter/Action
+PvdD	Improvement of medical services accessible to pets	Political Matter/Action
+PvdD	Easy accessibility of pet adoptions and neutering programs	Political Matter/Action
+PvdD	Minimization of human impact on biodiversity	Political Matter/Action
+PvdD	Collaboration with foreign nations on ecological concerns	Political Matter/Action
+PvdD	Advocacy for ethically sourced meat products	Political Matter/Action
+PvdD	Promotion of cage-free eggs and dairy products	Political Matter/Action
+PvdD	Encouragement of eco-friendly practices within agriculture	Political Matter/Action
+PvdD	Regular monitoring of industrial farms for any signs of mistreatment	Political Matter/Action
+PvdD	Establishment of rehabilitation centers for injured animals	Political Matter/Action
+PvdD	Creation of sanctuaries for rescued farm animals	Political Matter/Action
+PvdD	Formulation of policies aimed at safeguarding marine life	Political Matter/Action
+PvdD	Ensuring optimal animal welfare	Main issue
+VVD	Committed to sustainable development and combatting climate change	Ideal
+VVD	Supportive of social equality and equal opportunities for all citizens	Ideal
+VVD	Advocates for an efficient government and reduced bureaucracy	Ideal
+VVD	Focuses on prevention rather than cure in healthcare policy	Ideal
+VVD	Aims to reduce carbon emissions by investing in renewable energy sources such as solar and wind power	Political Matter/Action
+VVD	Proposes increasing taxes on air travel and meat consumption to discourage environmentally harmful behavior	Political Matter/Action
+VVD	Promotes integration policies to combat segregation and religious oppression	Political Matter/Action
+VVD	Seeks to improve public safety through increased police presence and stricter sentencing guidelines for violent crimes	Political Matter/Action
+VVD	Plans to reform the education system to better prepare students for the digital world	Political Matter/Action
+VVD	Wants to create more affordable housing options for low-income families	Political Matter/Action
+VVD	Prioritizes reducing the influence of foreign governments and protecting sensitive information from cyber attacks	Political Matter/Action
+VVD	The main issue highlighted in the manifesto seems to be addressing the threat posed by organized crime and ensuring public safety through tougher law enforcement measures.	Main issue
+SP	Equality and social justice	Ideal
+SP	Sustainability and environmental protection	Ideal
+SP	Democracy and participation	Ideal
+SP	Solidarity and collective responsibility	Ideal
+SP	Quality public services and infrastructure	Ideal
+SP	Implementing a basic income for all citizens aged 18 or older without any conditions	Political Matter/Action
+SP	Providing free education from primary school through university level	Political Matter/Action
+SP	Introducing rent control and limiting top salaries to ten times lower than those of low-paid workers	Political Matter/Action
+SP	Building more affordable housing units and investing in renewable energy sources	Political Matter/Action
+SP	Ensuring safe neighborhoods by increasing police presence and providing legal aid for everyone	Political Matter/Action
+SP	Supporting diversity and combatting discrimination against minorities and vulnerable groups	Political Matter/Action
+SP	Promoting international cooperation and solidarity within Europe and beyond	Political Matter/Action
+SP	Reducing social inequality and impact of climate Change 	Main issue

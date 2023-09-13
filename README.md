@@ -1,6 +1,5 @@
-# 📦 Streamlit App Starter Kit 
+# 📦 Kieswaizer
 ```
-⬆️ (Replace above with your app's name)
 ```
 
 Description of the app ...
