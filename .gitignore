@@ -1,0 +1,5 @@
+.python-version
+.streamlit/secrets.toml
+venv/
+.idea/
+__pycache__
