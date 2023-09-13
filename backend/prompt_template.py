@@ -20,18 +20,6 @@ def prompt4conversation(prompt,context):
     return final_prompt
 
 
-
-def prompt_for_extra_detail(prompt, context, solution):
-    final_prompt = f"""GENERAL INFORMATION : 
-                        INSTRUCTION : ONLY return an answer, never include PREVIOUS MESSAGE or USER QUESTION! Help the user with their question based on their VOTER PROFILE.
-                        When answering the user question, try to match the VOTER PROFILE with the ideals, poltical standpoints/actions and main issue of the political parties. 
-                        Weigh the ideals heavier than the political actions when deciding if the political party is a fit to the voter. Weigh the main issue the heaviest. 
-                        PREVIOUS MESSAGE : ({context})
-                        USER QUESTION : {prompt} . 
-                        CORRECT ANSWER : ({solution}) 
-                        WITHOUT changing the content of the CORRECT ANSWER , make the answer more detailed."""
-    return final_prompt
-
 START_UP_MESSAGE = """
                     "Hi there, I'm **KieswAIzer**! To start things of, I prefer to speak English but I do understand Dutch, don't you worry 😉
                     \n 

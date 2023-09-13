@@ -11,7 +11,7 @@ import asyncio
 loop = asyncio.new_event_loop()
 asyncio.set_event_loop(loop)
 from langchain.text_splitter import CharacterTextSplitter
-from backend.prompt_template import START_UP_MESSAGE, VOTER_PROFILE_1, VOTER_PROFILE_2, VOTER_PROFILE_3, prompt_for_extra_detail,  prompt4conversation
+from backend.prompt_template import START_UP_MESSAGE, VOTER_PROFILE_1, VOTER_PROFILE_2, VOTER_PROFILE_3, prompt4conversation
 from langchain.vectorstores import Chroma
 from langchain.chains import RetrievalQA
 from backend.custom_huggingchat import CustomHuggingChat
@@ -163,14 +163,6 @@ with st.sidebar:
                 # Create a vectorstore from documents
                 random_str = ''.join(random.choices(string.ascii_uppercase + string.digits, k=10))
                 db = Chroma.from_documents(texts, embeddings, persist_directory="./chroma_db_" + random_str)
-
-            with st.spinner('Learning ...'):
-                # save vectorstore
-                db.persist()
-                #create .zip file of directory to download
-                shutil.make_archive("./chroma_db_" + random_str, 'zip', "./chroma_db_" + random_str)
-                # save in session state and download
-                st.session_state['db'] = "./chroma_db_" + random_str + ".zip" 
             
             with st.spinner('Almost done ...'):
                 # Create retriever interface
@@ -294,18 +286,12 @@ def generate_response(prompt):
             with st.spinner('Comparing your voter profile with party manifestos...'):
                 result = st.session_state['pdf']({"query": prompt})
                 solution = result["result"]
-                if len(solution.split()) > 110:
-                    final_prompt = solution
-                    if 'source_documents' in result and len(result["source_documents"]) > 0:
-                        final_prompt += "\n\n✅Source:\n" 
-                        for d in result["source_documents"]:
-                            final_prompt += "- " + str(d) + "\n"
-                else:
-                    final_prompt = prompt_for_extra_detail(prompt, context, solution)
-                    if 'source_documents' in result and len(result["source_documents"]) > 0:
-                        source += "\n\n✅Source:\n"
-                        for d in result["source_documents"]:
-                            source += "- " + str(d) + "\n"                    
+                final_prompt = solution
+                if 'source_documents' in result and len(result["source_documents"]) > 0:
+                    final_prompt += "\n\n✅Source:\n" 
+                    for d in result["source_documents"]:
+                        final_prompt += "- " + str(d) + "\n"
+              
 
 
 
@@ -317,18 +303,11 @@ def generate_response(prompt):
                 with st.spinner('🚀 Using tool to get information...'):
                     result = st.session_state['pdf']({"query": prompt})
                     solution = result["result"]
-                    if len(solution.split()) > 110:
-                        final_prompt = solution
-                        if 'source_documents' in result and len(result["source_documents"]) > 0:
-                            final_prompt += "\n\n✅Source:\n" 
-                            for d in result["source_documents"]:
-                                final_prompt += "- " + str(d) + "\n"
-                    else:
-                        final_prompt = prompt_for_extra_detail(prompt, context, solution)
-                        if 'source_documents' in result and len(result["source_documents"]) > 0:
-                            source += "\n\n✅Source:\n"
-                            for d in result["source_documents"]:
-                                source += "- " + str(d) + "\n"        
+                    final_prompt = solution
+                    if 'source_documents' in result and len(result["source_documents"]) > 0:
+                        final_prompt += "\n\n✅Source:\n" 
+                        for d in result["source_documents"]:
+                            final_prompt += "- " + str(d) + "\n"
             
             else:
                 #get last message if exists
