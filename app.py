@@ -11,7 +11,7 @@ import asyncio
 loop = asyncio.new_event_loop()
 asyncio.set_event_loop(loop)
 from langchain.text_splitter import CharacterTextSplitter
-from backend.prompt_template import START_UP_MESSAGE, VOTER_PROFILE_1, VOTER_PROFILE_2, VOTER_PROFILE_3, prompt4conversation
+from backend.prompt_template import START_UP_MESSAGE, VOTER_PROFILE_1, VOTER_PROFILE_2, VOTER_PROFILE_3, base_prompt
 from langchain.vectorstores import Chroma
 from langchain.chains import RetrievalQA
 from backend.custom_huggingchat import CustomHuggingChat
@@ -22,6 +22,7 @@ import docx2txt
 
 hf = None
 repo_id = "sentence-transformers/all-mpnet-base-v2"
+input_text = None
 
 if 'hf' not in st.session_state:
     hf = HuggingFaceHubEmbeddings(
@@ -112,15 +113,6 @@ with st.sidebar:
                     if 'start_up' not in st.session_state:
                         time.sleep(1)
                         st.session_state['start_up'] = [START_UP_MESSAGE]
-                        st.session_state.start_up.append(VOTER_PROFILE_1)
-                        st.session_state.start_up.append(VOTER_PROFILE_2)
-                        st.session_state.start_up.append(VOTER_PROFILE_3)
-
-
-
-
-
-                    
 
                     ## generated stores AI generated responses
                     if 'generated' not in st.session_state:
@@ -176,77 +168,83 @@ with st.sidebar:
 
 
 
-    # Plugin for admin
-            if st.session_state['plugin'] == "Upload documents" and 'documents' not in st.session_state:
-                with st.expander("Upload documents", expanded=True):  
-                    upload_pdf = st.file_uploader("Upload your document", type=['txt', 'pdf', 'docx'], accept_multiple_files=True)
-                    if upload_pdf is not None and st.button('✅ Load Document(s)'):
-                        documents = []
-                        with st.spinner(' Reading documents...'):
-                            for upload_pdf in upload_pdf:
-                                if upload_pdf.type == 'text/plain':
-                                    documents += [upload_pdf.read().decode()]
-                                elif upload_pdf.type == 'application/pdf':
-                                    with pdfplumber.open(upload_pdf) as pdf:
-                                        documents += [page.extract_text() for page in pdf.pages]
-                                elif upload_pdf.type == "application/vnd.openxmlformats-officedocument.wordprocessingml.document":
-                                    text = docx2txt.process(upload_pdf)
-                                    documents += [text]
-                        st.session_state['documents'] = documents
-                        # Split documents into chunks
-                        with st.spinner('🔨 Creating vectorstore...'):
-                            text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=0)
-                            texts = text_splitter.create_documents(documents)
-                            # Select embeddings
-                            embeddings = st.session_state['hf']
-                            # Create a vectorstore from documents
-                            random_str = ''.join(random.choices(string.ascii_uppercase + string.digits, k=10))
-                            db = Chroma.from_documents(texts, embeddings, persist_directory="./chroma_db_" + random_str)
+        # Plugin for admin
+        if st.session_state['plugin'] == "Upload documents" and 'documents' not in st.session_state:
+            with st.expander("Upload documents", expanded=True):  
+                upload_pdf = st.file_uploader("Upload your document", type=['txt', 'pdf', 'docx'], accept_multiple_files=True)
+                if upload_pdf is not None and st.button('✅ Load Document(s)'):
+                    documents = []
+                    with st.spinner(' Reading documents...'):
+                        for upload_pdf in upload_pdf:
+                            if upload_pdf.type == 'text/plain':
+                                documents += [upload_pdf.read().decode()]
+                            elif upload_pdf.type == 'application/pdf':
+                                with pdfplumber.open(upload_pdf) as pdf:
+                                    documents += [page.extract_text() for page in pdf.pages]
+                            elif upload_pdf.type == "application/vnd.openxmlformats-officedocument.wordprocessingml.document":
+                                text = docx2txt.process(upload_pdf)
+                                documents += [text]
+                    st.session_state['documents'] = documents
+                    # Split documents into chunks
+                    with st.spinner('🔨 Creating vectorstore...'):
+                        text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=0)
+                        texts = text_splitter.create_documents(documents)
+                        # Select embeddings
+                        embeddings = st.session_state['hf']
+                        # Create a vectorstore from documents
+                        random_str = ''.join(random.choices(string.ascii_uppercase + string.digits, k=10))
+                        db = Chroma.from_documents(texts, embeddings, persist_directory="./chroma_db_" + random_str)
 
-                        with st.spinner('🔨 Saving vectorstore...'):
-                            # save vectorstore
-                            db.persist()
-                            #create .zip file of directory to download
-                            shutil.make_archive("./chroma_db_" + random_str, 'zip', "./chroma_db_" + random_str)
-                            # save in session state and download
-                            st.session_state['db'] = "./chroma_db_" + random_str + ".zip" 
-                        
-                        with st.spinner('🔨 Creating QA chain...'):
-                            # Create retriever interface
-                            retriever = db.as_retriever()
-                            # Create QA chain
-                            qa = RetrievalQA.from_chain_type(llm=st.session_state['LLM'], chain_type='stuff', retriever=retriever,  return_source_documents=True)
-                            st.session_state['pdf'] = qa
+                    with st.spinner('🔨 Saving vectorstore...'):
+                        # save vectorstore
+                        db.persist()
+                        #create .zip file of directory to download
+                        shutil.make_archive("./chroma_db_" + random_str, 'zip', "./chroma_db_" + random_str)
+                        # save in session state and download
+                        st.session_state['db'] = "./chroma_db_" + random_str + ".zip" 
+                    
+                    with st.spinner('🔨 Creating QA chain...'):
+                        # Create retriever interface
+                        retriever = db.as_retriever()
+                        # Create QA chain
+                        qa = RetrievalQA.from_chain_type(llm=st.session_state['LLM'], chain_type='stuff', retriever=retriever,  return_source_documents=True)
+                        st.session_state['pdf'] = qa
 
-                        st.experimental_rerun()
-
-            if st.session_state['plugin'] == "Upload documents":
-                if 'db' in st.session_state:
-                    # leave ./ from name for download
-                    file_name = st.session_state['db'][2:]
-                    st.download_button(
-                        label="📩 Download vectorstore",
-                        data=open(file_name, 'rb').read(),
-                        file_name=file_name,
-                        mime='application/zip'
-                    )
-                if st.button('🛑 Remove document from context'):
-                    if 'pdf' in st.session_state:
-                        del st.session_state['db']
-                        del st.session_state['pdf']
-                        del st.session_state['documents']
-                    del st.session_state['plugin']
-                        
                     st.experimental_rerun()
 
+        if st.session_state['plugin'] == "Upload documents":
+            if 'db' in st.session_state:
+                # leave ./ from name for download
+                file_name = st.session_state['db'][2:]
+                st.download_button(
+                    label="📩 Download vectorstore",
+                    data=open(file_name, 'rb').read(),
+                    file_name=file_name,
+                    mime='application/zip'
+                )
+            if st.button('🛑 Remove document from context'):
+                if 'pdf' in st.session_state:
+                    del st.session_state['db']
+                    del st.session_state['pdf']
+                    del st.session_state['documents']
+                del st.session_state['plugin']
+                    
+                st.experimental_rerun()
+
 # END OF PLUGIN
-    add_vertical_space(4)
+    add_vertical_space(2)
     if 'hf_email' in st.session_state:
         if st.button('🗑 Logout'):
             keys = list(st.session_state.keys())
             for key in keys:
                 del st.session_state[key]
             st.experimental_rerun()
+
+    voter_profile =  st.text_area(label='Type your voter profile here', placeholder=VOTER_PROFILE_2, height=350)
+    if 'voter_profile' not in st.session_state:
+        st.session_state['voter_profile'] = voter_profile
+
+
 
     # export_chat()
     add_vertical_space(5)
@@ -256,6 +254,7 @@ with st.sidebar:
 
 # User input
 # Layout of input/response containers
+
 input_container = st.container()
 response_container = st.container()
 data_view_container = st.container()
@@ -265,7 +264,10 @@ loading_container = st.container()
 
 ## Applying the user input box
 with input_container:
-        input_text = st.chat_input("🧑‍💻 Write here 👇", key="input")
+        if len(voter_profile) > 2:
+            input_text = st.chat_input("🧑‍💻 Write here 👇", key="input")
+        
+
 
 if st.session_state['admin_mode'] == 'active'and 'pdf' in st.session_state:
     with data_view_container:
@@ -284,6 +286,7 @@ def generate_response(prompt):
             # Process below applies to normal user mode
             context = f"User: {st.session_state['past'][-1]}\nBot: {st.session_state['generated'][-1]}\n"
             with st.spinner('Comparing your voter profile with party manifestos...'):
+                prompt = base_prompt(prompt, context, voter_profile)
                 result = st.session_state['pdf']({"query": prompt})
                 solution = result["result"]
                 final_prompt = solution
@@ -316,7 +319,7 @@ def generate_response(prompt):
                 else:
                     context = f"User: {st.session_state['past'][-2]}\nBot: {st.session_state['generated'][-2]}\nUser: {st.session_state['past'][-1]}\nBot: {st.session_state['generated'][-1]}\n"
                 
-                final_prompt = prompt4conversation(prompt, context)
+                final_prompt = base_prompt(prompt, context, "")
 
 
 
@@ -327,38 +330,40 @@ def generate_response(prompt):
 
 ## Conditional display of AI generated responses as a function of user provided prompts
 with response_container:
-    if input_text and 'hf_email' in st.session_state and 'hf_pass' in st.session_state:
+    if input_text is not None and 'hf_email' in st.session_state and 'hf_pass' in st.session_state:
         response = generate_response(input_text)
         st.session_state.past.append(input_text)
         st.session_state.generated.append(response)
     
 
-    #print message in normal order, first user then bot
-    if 'generated' in st.session_state:
+#print message in normal order, first user then bot
+    if 'start_up' in st.session_state:
         for i in range(len(st.session_state['start_up'])):
+            st.session_state['voter_profile'] = voter_profile
             with st.chat_message(name="assistant"):
                 time.sleep(2)
                 st.markdown(st.session_state['start_up'][i])
+            if len(st.session_state['voter_profile']) > 2:
+                if st.session_state['generated']:
+                    for i in range(len(st.session_state['generated'])):
+                        with st.chat_message(name="user"):
+                            st.markdown(st.session_state['past'][i])
+                        
+                        with st.chat_message(name="assistant"):
+                            if len(st.session_state['generated'][i].split("✅Source:")) > 1:
+                                source = st.session_state['generated'][i].split("✅Source:")[1]
+                                mess = st.session_state['generated'][i].split("✅Source:")[0]
 
-        if st.session_state['generated']:
-            for i in range(len(st.session_state['generated'])):
-                with st.chat_message(name="user"):
-                    st.markdown(st.session_state['past'][i])
-                
-                with st.chat_message(name="assistant"):
-                    if len(st.session_state['generated'][i].split("✅Source:")) > 1:
-                        source = st.session_state['generated'][i].split("✅Source:")[1]
-                        mess = st.session_state['generated'][i].split("✅Source:")[0]
+                                st.markdown(mess)
+                                with st.expander("📚 Source of message number " + str(i+1)):
+                                    st.markdown(source)
 
-                        st.markdown(mess)
-                        with st.expander("📚 Source of message number " + str(i+1)):
-                            st.markdown(source)
+                            else:
+                                st.markdown(st.session_state['generated'][i])
 
-                    else:
-                        st.markdown(st.session_state['generated'][i])
-
-            st.markdown('', unsafe_allow_html=True)
-            
+                    st.markdown('', unsafe_allow_html=True)
+            else:
+                st.error("You can start chatting after you've completed your voter profile. Do this in the sidebar on the left 👈")
             
     else:
         st.info("👋 Hey , happy to see that you're planning to vote the upcoming elections!")
