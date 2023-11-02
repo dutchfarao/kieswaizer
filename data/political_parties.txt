@@ -1,160 +1,496 @@
-Political party	Ideals	Ideal or Political Matters/Actions or main issue:
-PVV (Partij voor de Vrijheid) 	Defending freedom of speech and expression	Ideal
-PVV (Partij voor de Vrijheid) 	Opposing Islamization and promoting Western values	Ideal
-PVV (Partij voor de Vrijheid) 	Protecting national sovereignty and opposing EU interference	Ideal
-PVV (Partij voor de Vrijheid) 	Supporting law and order and crackdown on crime	Ideal
-PVV (Partij voor de Vrijheid) 	Promoting individual responsibility and self-reliance	Ideal
-PVV (Partij voor de Vrijheid) 	Fostering economic growth through entrepreneurship and free market principles	Ideal
-PVV (Partij voor de Vrijheid) 	Advocating for direct democracy and citizen participation in decision making processes	Ideal
-PVV (Partij voor de Vrijheid) 	Strengthening border controls and reducing immigration from non-Western countries	Political Matter/Action
-PVV (Partij voor de Vrijheid) 	Banning face coverings in public spaces	Political Matter/Action
-PVV (Partij voor de Vrijheid) 	Criminalizing hate preachers and closing radical mosques	Political Matter/Action
-PVV (Partij voor de Vrijheid) 	Withdrawing from international treaties that compromise national sovereignty	Political Matter/Action
-PVV (Partij voor de Vrijheid) 	Implementing tax cuts for businesses and individuals	Political Matter/Action
-PVV (Partij voor de Vrijheid) 	Abolishing inheritance tax and wealth tax	Political Matter/Action
-PVV (Partij voor de Vrijheid) 	Introducing a flat tax system	Political Matter/Action
-PVV (Partij voor de Vrijheid) 	Repatriating migrants who refuse to integrate or commit crimes	Political Matter/Action
-PVV (Partij voor de Vrijheid) 	Scrapping the Development Aid budget and redirecting funds towards domestic priorities	Political Matter/Action
-PVV (Partij voor de Vrijheid) 	Reducing foreign aid to countries that persecute Christians or support terrorism	Political Matter/Action
-PVV (Partij voor de Vrijheid) 	Abandoning the euro and returning to the guilder as the national currency	Political Matter/Action
-PVV (Partij voor de Vrijheid) 	Establishing an independent Central Bank focused solely on maintaining price stability	Political Matter/Action
-PVV (Partij voor de Vrijheid) 	Encouraging voluntary repatriation of refugees and asylum seekers	Political Matter/Action
-PVV (Partij voor de Vrijheid) 	Clamping down on human trafficking and sex work	Political Matter/Action
-PVV (Partij voor de Vrijheid) 	Legalizing euthanasia under strict conditions	Political Matter/Action
-PVV (Partij voor de Vrijheid) 	Prohibiting abortion after the twelfth week of pregnancy except in cases of severe medical emergency	Political Matter/Action
-PVV (Partij voor de Vrijheid) 	Preserving Dutch national identity and culture through policies that prioritize native citizens' interests and values, tackling concerns related to mass migration, assimilation, growing influence of Islamic ideology on society	Main issue
-50Plus	Promotion of active citizenship among seniors	Ideal
-50Plus	Increasing participation of seniors in society	Ideal
-50Plus	Ensuring social cohesion between generations	Ideal
-50Plus	Establishment of an advisory council for seniors within government	Political Matter/Action
-50Plus	Introduction of a "Seniors Card" to give discounts on public transportation, culture, sports, and education	Political Matter/Action
-50Plus	Development of a national action plan for preventative healthcare targeted at seniors	Political Matter/Action
-50Plus	Expansion of elderly care facilities through increased funding and cooperation with municipalities	Political Matter/Action
-50Plus	Implementation of a National Pension Guarantee Fund to protect against poverty in old age	Political Matter/Action
-50Plus	Creation of a National Care Insurance Fund to ensure access to high-quality long-term care services	Political Matter/Action
-50Plus	Introduction of a Participation Budget for Seniors to allow them to participate in decision-making processes related to their living environment	Political Matter/Action
-50Plus	Encouragement of intergenerational connections by promoting volunteer work and community service among young people	Political Matter/Action
-50Plus	The main issue that this party is best known for is its focus on issues affecting seniors and improving their quality of life.	Main issue
-ChristenUnie 	Christian values and principles guide policy making	Ideal
-ChristenUnie 	Promotion of social cohesion and solidarity	Ideal
-ChristenUnie 	Protection of human dignity and life from conception until natural death	Ideal
-ChristenUnie 	Sustainable development and care for creation	Ideal
-ChristenUnie 	International responsibility and promotion of peace and justice	Ideal
-ChristenUnie 	Strengthening family and marriage through tax benefits and support services	Political Matter/Action
-ChristenUnie 	Improving accessibility and affordability of healthcare and elderly care	Political Matter/Action
-ChristenUnie 	Investment in sustainable energy transition and climate change mitigation measures	Political Matter/Action
-ChristenUnie 	Enhancing integration of immigrants and promoting multiculturalism	Political Matter/Action
-ChristenUnie 	Reforming the criminal justice system towards restorative justice and rehabilitation	Political Matter/Action
-ChristenUnie 	Support for small businesses and entrepreneurship through tax relief and training programs	Political Matter/Action
-ChristenUnie 	Promotion of fair trade and corporate social responsibility	Political Matter/Action
-ChristenUnie 	Development aid focused on poverty reduction, education, and gender equality	Political Matter/Action
-ChristenUnie 	Opposition to euthanasia and physician-assisted suicide	Political Matter/Action
-ChristenUnie 	 The ChristenUnie is best known for its conservative stance on moral issues such as abortion, same-sex marriage, and euthanasia. They advocate for policies that uphold traditional Christian values and promote the sanctity of human life.	Main issue
-D66	Equality and equal opportunities for all citizens regardless of background or identity	Ideal
-D66	Sustainable development and addressing climate change through innovation and cooperation	Ideal
-D66	Strong international partnerships and diplomacy to tackle global challenges	Ideal
-D66	Transparent government and citizen participation in decision-making processes	Ideal
-D66	Improving accessibility and affordability of healthcare services	Political Matter/Action
-D66	Promoting sustainable energy solutions and reducing carbon emissions	Political Matter/Action
-D66	Encouraging entrepreneurship and innovation through tax benefits and investment in R&D	Political Matter/Action
-D66	Expanding childcare options and parental leave policies	Political Matter/Action
-D66	Ensuring fair housing market regulations and increasing supply of affordable homes	Political Matter/Action
-D66	Tackling poverty and income inequality by strengthening social security nets	Political Matter/Action
-D66	Reforming immigration policy to ensure safe and legal pathways for refugees and migrants	Political Matter/Action
-D66	Supporting LGBTQ+ rights and gender equality measures	Political Matter/Action
-D66	Modernizing education system to prepare students for future job markets	Political Matter/Action
-D66	Investing in public transportation infrastructure and promoting sustainable mobility	Political Matter/Action
-D66	Protecting nature reserves and biodiversity conservation efforts	Political Matter/Action
-D66	Regulating and monitoring lobbying activities to prevent undue influence on policymaking	Political Matter/Action
-D66	Developing digitalization strategies to enhance government efficiency and cybersecurity	Political Matter/Action
-D66	Strengthening EU collaboration on foreign affairs, trade, and defense	Political Matter/Action
-D66	Advocating for human rights and democratic values globally	Political Matter/Action
-D66	Facilitating intergenerational dialogues and ensuring elderly care services	Political Matter/Action
-D66	Fostering inclusive labor market practices and combatting workplace discrimination	Political Matter/Action
-D66	Encouraging corporate social responsibility and transparent business practices	Political Matter/Action
-D66	Promoting cultural diversity and integration initiatives at local levels	Political Matter/Action
-D66	Engaging citizens in participatory budgeting processes and community projects	Political Matter/Action
-D66	The main issue for D66 is to create a more equitable and inclusive society by addressing systemic barriers and providing support to marginalized groups, with a focus on education, environmental sustainability, healthcare accessibility, job security, and tax reform.	Main issue
-CDA	A strong and serviceable government	Ideal
-CDA	International cooperation and solidarity	Ideal
-CDA	Sustainability and protection of natural resources	Ideal
-CDA	Support for social organizations at national and international levels that are important in peace negotiations and upholding women's rights.	Political Matter/Action
-CDA	Promotion of fair trade through agreements based on equal playing field without unfair competition from state support for companies outside Europe.	Political Matter/Action
-CDA	Protection of the rule of law in European member states. Countries violating the rule of law lose their voting rights in the European Council and their claim to European funds and subsidies.	Political Matter/Action
-CDA	Strengthening the fight against corruption by cutting or stopping subsidies for countries responsible for the downing of flight MH17 and recognition of Russia's state liability.	Political Matter/Action
-CDA	More attention to intellectual property protection for businesses and universities, trading conditions, and individual human rights in the Netherlands' China strategy.	Political Matter/Action
-CDA	Similar changes in the EU's China strategy so that countries are not played off against each other by Chinese investments.	Political Matter/Action
-CDA	Freedom of religion as a focal point of foreign policy. Building an international coalition against religious persecution, including Christian persecution, which takes serious forms in various countries.	Political Matter/Action
-CDA	The importance of multilateral organizations such as the UN, World Bank, WTO, and WHO is under pressure in a troubled world. These institutions are indispensable for solving global problems.	Political Matter/Action
-CDA	Focus on the core tasks of these organizations, especially the UN, to increase their impact. The UN is the only platform where almost all countries in the world speak.	Political Matter/Action
-CDA	A party with Christian values that wants to be a reliable partner in times of crisis	Main issue
-FVD	Sovereign democracy	Ideal
-FVD	Rule of law	Ideal
-FVD	Direct democracy	Ideal
-FVD	Civic responsibility	Ideal
-FVD	Limited government intervention	Ideal
-FVD	Sanitation of public broadcasting (NPO)	Political Matter/Action
-FVD	Approach to judicial dictatorship	Political Matter/Action
-FVD	Restoration of power balance between democracy and judiciary by ending the use of international law and amending articles 93 and 94 of the Constitution	Political Matter/Action
-FVD	Introduction of a "Law of Judgment" to ensure laws are interpreted correctly	Political Matter/Action
-FVD	Strengthening the grip of politics on appointments of higher court members like those from the Supreme Court or Council of State	Political Matter/Action
-FVD	Implementing binding referenda	Political Matter/Action
-FVD	Introducing an Initiative Law to allow citizens to submit propositions to parliament	Political Matter/Action
-FVD	Repatriation of asylum seekers who have committed crimes	Political Matter/Action
-FVD	Tough approach towards people who commit serious crimes	Political Matter/Action
-FVD	Support for police officers and soldiers	Political Matter/Action
-FVD	Amnesty for Johan van Oldenbarneveldt and other PVV members persecuted for their opinions	Political Matter/Action
-FVD	Opposition to further European centralization and support for national sovereignty	Political Matter/Action
-FVD	Abolition of dividends for all forms of social assistance	Political Matter/Action
-FVD	Reducing the number of municipalities	Political Matter/Action
-FVD	Lowering the voting age to 16 years old	Political Matter/Action
-FVD	Promotion of direct democracy through citizen initiatives and referenda	Political Matter/Action
-FVD	The main issue seems to be restoring the power balance between democracy and the judiciary, particularly by addressing the problematic growth of international law and limiting its influence over domestic legal decision making.	Main issue
-PvdD	Equal treatment of all living beings, irrespective of their species or origin	Ideal
-PvdD	Fostering sustainability and ensuring the wellbeing of animals	Ideal
-PvdD	Prohibition of fur farming	Ideal
-PvdD	Introduction of stringent measures at slaughterhouses	Political Matter/Action
-PvdD	Augmentation of funds allocated towards conserving natural habitats	Political Matter/Action
-PvdD	Encouragement of plant-based diet through educational campaigns and financial incentives	Political Matter/Action
-PvdD	Support for small enterprises and community projects	Political Matter/Action
-PvdD	Emphasis on utilizing renewable energy resources	Political Matter/Action
-PvdD	Reinforcement of laws pertaining to wildlife smuggling	Political Matter/Action
-PvdD	Stringent punishments for acts of cruelty against animals	Political Matter/Action
-PvdD	Opposition to genetic manipulation of creatures	Political Matter/Action
-PvdD	Improvement of medical services accessible to pets	Political Matter/Action
-PvdD	Easy accessibility of pet adoptions and neutering programs	Political Matter/Action
-PvdD	Minimization of human impact on biodiversity	Political Matter/Action
-PvdD	Collaboration with foreign nations on ecological concerns	Political Matter/Action
-PvdD	Advocacy for ethically sourced meat products	Political Matter/Action
-PvdD	Promotion of cage-free eggs and dairy products	Political Matter/Action
-PvdD	Encouragement of eco-friendly practices within agriculture	Political Matter/Action
-PvdD	Regular monitoring of industrial farms for any signs of mistreatment	Political Matter/Action
-PvdD	Establishment of rehabilitation centers for injured animals	Political Matter/Action
-PvdD	Creation of sanctuaries for rescued farm animals	Political Matter/Action
-PvdD	Formulation of policies aimed at safeguarding marine life	Political Matter/Action
-PvdD	Ensuring optimal animal welfare	Main issue
-VVD	Committed to sustainable development and combatting climate change	Ideal
-VVD	Supportive of social equality and equal opportunities for all citizens	Ideal
-VVD	Advocates for an efficient government and reduced bureaucracy	Ideal
-VVD	Focuses on prevention rather than cure in healthcare policy	Ideal
-VVD	Aims to reduce carbon emissions by investing in renewable energy sources such as solar and wind power	Political Matter/Action
-VVD	Proposes increasing taxes on air travel and meat consumption to discourage environmentally harmful behavior	Political Matter/Action
-VVD	Promotes integration policies to combat segregation and religious oppression	Political Matter/Action
-VVD	Seeks to improve public safety through increased police presence and stricter sentencing guidelines for violent crimes	Political Matter/Action
-VVD	Plans to reform the education system to better prepare students for the digital world	Political Matter/Action
-VVD	Wants to create more affordable housing options for low-income families	Political Matter/Action
-VVD	Prioritizes reducing the influence of foreign governments and protecting sensitive information from cyber attacks	Political Matter/Action
-VVD	The main issue highlighted in the manifesto seems to be addressing the threat posed by organized crime and ensuring public safety through tougher law enforcement measures.	Main issue
-SP	Equality and social justice	Ideal
-SP	Sustainability and environmental protection	Ideal
-SP	Democracy and participation	Ideal
-SP	Solidarity and collective responsibility	Ideal
-SP	Quality public services and infrastructure	Ideal
-SP	Implementing a basic income for all citizens aged 18 or older without any conditions	Political Matter/Action
-SP	Providing free education from primary school through university level	Political Matter/Action
-SP	Introducing rent control and limiting top salaries to ten times lower than those of low-paid workers	Political Matter/Action
-SP	Building more affordable housing units and investing in renewable energy sources	Political Matter/Action
-SP	Ensuring safe neighborhoods by increasing police presence and providing legal aid for everyone	Political Matter/Action
-SP	Supporting diversity and combatting discrimination against minorities and vulnerable groups	Political Matter/Action
-SP	Promoting international cooperation and solidarity within Europe and beyond	Political Matter/Action
-SP	Reducing social inequality and impact of climate Change 	Main issue
+Political party	Standpoint	Ideal or Political Matters/Actions or main issue:
+50Plus	Emphasis on individual freedom and responsibility	Ideals
+50Plus	Belief in the importance of democracy and direct participation	Ideals
+50Plus	Commitment to sustainable development and protecting the environment	Ideals
+50Plus	Promoting social cohesion and combating discrimination	Ideals
+50Plus	Support for an open economy with fair competition	Ideals
+50Plus	Strong focus on education and innovation	Ideals
+50Plus	Upholding human rights and international law	Ideals
+50Plus	Reduce bureaucracy and increase efficiency in government services	Political Matters/Actions
+50Plus	Implement a referendum system for important policy decisions	Political Matters/Actions
+50Plus	Introduce a binding citizens' initiative mechanism	Political Matters/Actions
+50Plus	Increase transparency in government decision-making processes	Political Matters/Actions
+50Plus	Encourage civic engagement through volunteer work and community service	Political Matters/Actions
+50Plus	Foster a culture of entrepreneurship and self-reliance	Political Matters/Actions
+50Plus	Promote sustainable agriculture and food production	Political Matters/Actions
+50Plus	Develop a comprehensive energy transition plan	Political Matters/Actions
+50Plus	Implement a progressive tax system with lower taxes for low-income earners	Political Matters/Actions
+50Plus	Invest in public transportation infrastructure	Political Matters/Actions
+50Plus	Enforce stricter controls on immigration and asylum policies	Political Matters/Actions
+50Plus	Provide more support for small businesses and startups	Political Matters/Actions
+50Plus	Encourage the use of renewable energy sources	Political Matters/Actions
+50Plus	Improve accessibility and affordability of housing	Political Matters/Actions
+50Plus	Strengthen laws against environmental pollution	Political Matters/Actions
+50Plus	Increase funding for scientific research and innovation	Political Matters/Actions
+50Plus	Promote cultural diversity and exchange programs	Political Matters/Actions
+50Plus	Improve mental healthcare services and reduce waiting lists	Political Matters/Actions
+50Plus	Expand parental leave benefits and childcare support	Political Matters/Actions
+50Plus	Establish a national program for digital literacy training	Political Matters/Actions
+50Plus	The main issue that 50PLUS wants to address is the perceived lack of representation of the interests of older people (aged 50 and above) in politics and society, and the need for policies that cater specifically to their needs and concerns.	Main Issue
+BBB (BoerBurgerBeweging)	Sovereignty and independence of the Netherlands	Ideals
+BBB (BoerBurgerBeweging)	Protection of Dutch culture and traditions	Ideals
+BBB (BoerBurgerBeweging)	Strong national identity	Ideals
+BBB (BoerBurgerBeweging)	Direct democracy and citizen participation	Ideals
+BBB (BoerBurgerBeweging)	Limited government intervention in people's lives	Ideals
+BBB (BoerBurgerBeweging)	Free market economy with minimal regulation	Ideals
+BBB (BoerBurgerBeweging)	Respect for farmers and agriculture	Ideals
+BBB (BoerBurgerBeweging)	Emphasis on local communities and decentralization	Ideals
+BBB (BoerBurgerBeweging)	Prioritizing the interests of Dutch citizens over those of foreigners	Ideals
+BBB (BoerBurgerBeweging)	Implementing a binding referendum law to give citizens more direct influence on important policy decisions	Political Matters/Actions
+BBB (BoerBurgerBeweging)	Reducing bureaucracy and cutting red tape to stimulate entrepreneurship and economic growth	Political Matters/Actions
+BBB (BoerBurgerBeweging)	Increasing investment in infrastructure, including roads, bridges, and water management systems	Political Matters/Actions
+BBB (BoerBurgerBeweging)	Encouraging sustainable energy production and reducing dependence on fossil fuels	Political Matters/Actions
+BBB (BoerBurgerBeweging)	Supporting farmers and agriculture through subsidies and deregulation	Political Matters/Actions
+BBB (BoerBurgerBeweging)	Promoting Dutch culture and traditions, including preserving historical buildings and monuments	Political Matters/Actions
+BBB (BoerBurgerBeweging)	Introducing a flat tax system to simplify the tax code and reduce burdens on businesses and individuals	Political Matters/Actions
+BBB (BoerBurgerBeweging)	Limiting immigration and prioritizing the integration of newcomers into Dutch society	Political Matters/Actions
+BBB (BoerBurgerBeweging)	Strengthening law enforcement and judicial systems to combat crime and improve public safety	Political Matters/Actions
+BBB (BoerBurgerBeweging)	Providing affordable housing and addressing urban sprawl by promoting compact city centers	Political Matters/Actions
+BBB (BoerBurgerBeweging)	Encouraging civic engagement and community involvement in decision-making processes	Political Matters/Actions
+BBB (BoerBurgerBeweging)	Improving education quality and increasing funding for schools in disadvantaged areas	Political Matters/Actions
+BBB (BoerBurgerBeweging)	Expanding healthcare services and supporting independent medical practices	Political Matters/Actions
+BBB (BoerBurgerBeweging)	Enhancing cybersecurity measures to protect against digital threats	Political Matters/Actions
+BBB (BoerBurgerBeweging)	Developing a long-term vision for the Netherlands' role in Europe and the world	Political Matters/Actions
+BBB (BoerBurgerBeweging)	Fostering collaboration between government agencies, businesses, and civil society organizations	Political Matters/Actions
+BBB (BoerBurgerBeweging)	Streamlining administrative procedures and reducing paperwork for citizens and businesses	Political Matters/Actions
+BBB (BoerBurgerBeweging)	Creating a favorable environment for startups and scale-ups to grow and create jobs	Political Matters/Actions
+BBB (BoerBurgerBeweging)	Ensuring adequate pension provisions for all citizens, especially those in physically demanding professions	Political Matters/Actions
+BBB (BoerBurgerBeweging)	Preserving natural resources and promoting sustainable development in agriculture, industry, and transportation	Political Matters/Actions
+BBB (BoerBurgerBeweging)	The main issue that the BBB wants to address is what they perceive as a growing disconnect between the government and its citizens, particularly in rural areas. They believe that the current political establishment is out of touch with the concerns and needs of ordinary people and that their policies often harm rather than help. The BBB seeks to bridge this gap by giving citizens a greater say in policymaking, limiting the power of unelected officials, and prioritizing the interests of Dutch citizens above those of foreigners.	Main Issue
+BIJ1	Democracy and citizen participation	Ideals
+BIJ1	Social justice and equality	Ideals
+BIJ1	Environmental sustainability	Ideals
+BIJ1	Solidarity and inclusiveness	Ideals
+BIJ1	Human rights and international law	Ideals
+BIJ1	Transparency and accountability	Ideals
+BIJ1	Shift from privatization to nationalization of key sectors such as banks, pension funds, public transportation, and healthcare.	Political Matters/Actions
+BIJ1	End tax haven status and crack down on tax evasion.	Political Matters/Actions
+BIJ1	Introduce a wealth tax with a 100% marginal tax rate above a certain threshold, which would be determined democratically.	Political Matters/Actions
+BIJ1	Increase inheritance tax and ease expropriation laws regarding capital, shares, and assets.	Political Matters/Actions
+BIJ1	Implement a comprehensive review of the impact of imported and exported products on people and the climate worldwide.	Political Matters/Actions
+BIJ1	Gradually phase out the stock exchange and replace it with a collective coupon system where every Dutch citizen receives an equal number of non-transferable coupons on their 18th birthday.	Political Matters/Actions
+BIJ1	Promote local production and distribution.	Political Matters/Actions
+BIJ1	Strengthen workers' rights and union representation.	Political Matters/Actions
+BIJ1	Improve education and healthcare infrastructure.	Political Matters/Actions
+BIJ1	Address the housing crisis through increased investment in affordable housing.	Political Matters/Actions
+BIJ1	Encourage sustainable agriculture and reduce meat consumption.	Political Matters/Actions
+BIJ1	Support small businesses and cooperatives.	Political Matters/Actions
+BIJ1	Foster a culture of mutual aid and community involvement.	Political Matters/Actions
+BIJ1	Ensure gender equality and address intersectional discrimination.	Political Matters/Actions
+BIJ1	Protect the rights of indigenous peoples and promote decolonization.	Political Matters/Actions
+BIJ1	Implement a four-day workweek and flexible working hours.	Political Matters/Actions
+BIJ1	Provide free public transportation and promote sustainable mobility.	Political Matters/Actions
+BIJ1	Establish a universal basic income.	Political Matters/Actions
+BIJ1	Create a participatory budgeting process.	Political Matters/Actions
+BIJ1	Enshrine environmental protection into law and adopt a holistic approach to climate action.	Political Matters/Actions
+BIJ1	The main issue that BIJ1 addresses is the growing gap between the rich and the poor in the Netherlands, and the associated problems of inequality, discrimination, and environmental degradation. They aim to create a more just and sustainable society by challenging the current neoliberal economic model and promoting a democratic socialism that prioritizes human well-being and planetary health.	Main Issue
+BVNL (Belang Voor Nederland)	Putting the interests of the Netherlands and its citizens first	Ideals
+BVNL (Belang Voor Nederland)	Promoting freedom and personal responsibility	Ideals
+BVNL (Belang Voor Nederland)	Encouraging entrepreneurship and economic growth	Ideals
+BVNL (Belang Voor Nederland)	Protecting traditional values and norms	Ideals
+BVNL (Belang Voor Nederland)	Strengthening democracy and citizen participation	Ideals
+BVNL (Belang Voor Nederland)	Improving public safety and security	Ideals
+BVNL (Belang Voor Nederland)	Supporting sustainable development and environmental protection	Ideals
+BVNL (Belang Voor Nederland)	Reducing taxes and cutting unnecessary government spending	Political Matters/Actions
+BVNL (Belang Voor Nederland)	Simplifying regulations and reducing bureaucracy	Political Matters/Actions
+BVNL (Belang Voor Nederland)	Investing in infrastructure and public transportation	Political Matters/Actions
+BVNL (Belang Voor Nederland)	Encouraging innovation and technological advancement	Political Matters/Actions
+BVNL (Belang Voor Nederland)	Improving education and promoting lifelong learning	Political Matters/Actions
+BVNL (Belang Voor Nederland)	Strengthening healthcare and social welfare systems	Political Matters/Actions
+BVNL (Belang Voor Nederland)	Enhancing national defense and international cooperation	Political Matters/Actions
+BVNL (Belang Voor Nederland)	Promoting cultural and artistic expression	Political Matters/Actions
+BVNL (Belang Voor Nederland)	Supporting small businesses and local economies	Political Matters/Actions
+BVNL (Belang Voor Nederland)	Encouraging sustainable agriculture and food production	Political Matters/Actions
+BVNL (Belang Voor Nederland)	Introducing binding referendums and direct democracy	Political Matters/Actions
+BVNL (Belang Voor Nederland)	Respecting the rights and dignity of older citizens	Political Matters/Actions
+BVNL (Belang Voor Nederland)	Reducing the size of government and number of civil servants	Political Matters/Actions
+BVNL (Belang Voor Nederland)	Abolishing inheritance and gift taxes	Political Matters/Actions
+BVNL (Belang Voor Nederland)	The main issue that BVNL wants to address is the perceived decline of the Netherlands and its culture, and the need to restore the country's greatness through a focus on traditional values, personal responsibility, and economic growth.	Main Issue
+CDA (Christen-Democratisch Appèl)	Public justice	Ideals
+CDA (Christen-Democratisch Appèl)	Rentmeestership (stewardship)	Ideals
+CDA (Christen-Democratisch Appèl)	Solidarity	Ideals
+CDA (Christen-Democratisch Appèl)	Distributed responsibility	Ideals
+CDA (Christen-Democratisch Appèl)	Improve education quality and accessibility	Political Matters/Actions
+CDA (Christen-Democratisch Appèl)	Promote sustainable economic growth	Political Matters/Actions
+CDA (Christen-Democratisch Appèl)	Strengthen social cohesion and community building	Political Matters/Actions
+CDA (Christen-Democratisch Appèl)	Ensure affordable housing and healthcare	Political Matters/Actions
+CDA (Christen-Democratisch Appèl)	Encourage clean energy transition	Political Matters/Actions
+CDA (Christen-Democratisch Appèl)	Develop a comprehensive migration policy	Political Matters/Actions
+CDA (Christen-Democratisch Appèl)	Support entrepreneurship and innovation	Political Matters/Actions
+CDA (Christen-Democratisch Appèl)	Invest in infrastructure and public transportation	Political Matters/Actions
+CDA (Christen-Democratisch Appèl)	Foster international cooperation and diplomacy	Political Matters/Actions
+CDA (Christen-Democratisch Appèl)	Protect and preserve nature and environment	Political Matters/Actions
+CDA (Christen-Democratisch Appèl)	Promote cultural diversity and arts	Political Matters/Actions
+CDA (Christen-Democratisch Appèl)	Strengthen democratic institutions and participation	Political Matters/Actions
+CDA (Christen-Democratisch Appèl)	Address climate change and its impacts	Political Matters/Actions
+CDA (Christen-Democratisch Appèl)	Reduce poverty and income inequality	Political Matters/Actions
+CDA (Christen-Democratisch Appèl)	Improve public safety and crime prevention	Political Matters/Actions
+CDA (Christen-Democratisch Appèl)	Support family and youth policies	Political Matters/Actions
+CDA (Christen-Democratisch Appèl)	Encourage civil society engagement	Political Matters/Actions
+CDA (Christen-Democratisch Appèl)	Simplify government procedures and reduce bureaucracy	Political Matters/Actions
+CDA (Christen-Democratisch Appèl)	Promote digitalization and technological advancements	Political Matters/Actions
+CDA (Christen-Democratisch Appèl)	Review and reform tax system to ensure fairness and efficiency	Political Matters/Actions
+CDA (Christen-Democratisch Appèl)	"Recht doen" (Doing what is right) - The CDA wants to create a more just and equitable society by making choices that align with their values and principles, and by working towards solutions that benefit everyone in the long run. They believe that this requires a new approach to politics that prioritizes the common good, fosters collaboration and dialogue, and promotes sustainable development.	Main Issue
+ChristenUnie	Christian values and principles	Ideals
+ChristenUnie	Respect for human dignity and worth	Ideals
+ChristenUnie	Compassion and empathy for those in need	Ideals
+ChristenUnie	Justice and equality for all people	Ideals
+ChristenUnie	Preservation of traditional family values	Ideals
+ChristenUnie	Importance of education and personal development	Ideals
+ChristenUnie	Sustainable living and care for the environment	Ideals
+ChristenUnie	Promoting peace and justice worldwide	Ideals
+ChristenUnie	Implementing a comprehensive approach to address climate change	Political Matters/Actions
+ChristenUnie	Investing in healthcare and improving accessibility for all citizens	Political Matters/Actions
+ChristenUnie	Strengthening education and providing more resources for teachers	Political Matters/Actions
+ChristenUnie	Encouraging sustainable economic growth and creating jobs	Political Matters/Actions
+ChristenUnie	Supporting families and strengthening social cohesion	Political Matters/Actions
+ChristenUnie	Protecting the rights of minorities and promoting diversity	Political Matters/Actions
+ChristenUnie	Improving public safety and reducing crime rates	Political Matters/Actions
+ChristenUnie	Promoting European cooperation and integration	Political Matters/Actions
+ChristenUnie	Addressing the housing market crisis and ensuring affordable housing	Political Matters/Actions
+ChristenUnie	Reducing bureaucracy and increasing efficiency in government services	Political Matters/Actions
+ChristenUnie	Encouraging volunteering and community service	Political Matters/Actions
+ChristenUnie	Fostering international cooperation and development aid	Political Matters/Actions
+ChristenUnie	Ensuring animal welfare and protecting the environment	Political Matters/Actions
+ChristenUnie	Providing support for small businesses and entrepreneurs	Political Matters/Actions
+ChristenUnie	Improving infrastructure and investing in public transportation	Political Matters/Actions
+ChristenUnie	Enhancing cybersecurity measures and digital privacy protection	Political Matters/Actions
+ChristenUnie	Creating a fair and efficient tax system	Political Matters/Actions
+ChristenUnie	Promoting cultural and artistic expression	Political Matters/Actions
+ChristenUnie	Encouraging sports and physical activity	Political Matters/Actions
+ChristenUnie	Supporting scientific research and innovation	Political Matters/Actions
+ChristenUnie	The main issue that the ChristenUnie wants to address is the growing divide between different groups within society, including the rich and poor, young and old, and urban and rural areas. They believe that by focusing on their key ideals and policy objectives, they can help bridge this gap and create a more just and equitable society for all.	Main Issue
+DENK	Equality and non-discrimination	Ideals
+DENK	Solidarity and empathy	Ideals
+DENK	Freedom of expression and belief	Ideals
+DENK	Respect for diversity and individuality	Ideals
+DENK	Inclusive society	Ideals
+DENK	Critical thinking and skepticism towards authority	Ideals
+DENK	Fight against institutional racism and discrimination	Political Matters/Actions
+DENK	Promote diversity and inclusion in education and workplace	Political Matters/Actions
+DENK	Strengthen anti-discrimination laws and policies	Political Matters/Actions
+DENK	Encourage critical thinking and media literacy	Political Matters/Actions
+DENK	Support LGBTQ+ rights and gender equality	Political Matters/Actions
+DENK	Address climate change and environmental issues	Political Matters/Actions
+DENK	Improve mental health care and reduce stigma	Political Matters/Actions
+DENK	Increase transparency and accountability in government	Political Matters/Actions
+DENK	Foster a culture of tolerance and empathy	Political Matters/Actions
+DENK	Protect privacy and digital rights	Political Matters/Actions
+DENK	Encourage active citizenship and participation	Political Matters/Actions
+DENK	Combat hate speech and online harassment	Political Matters/Actions
+DENK	Support refugees and migrants	Political Matters/Actions
+DENK	Advocate for animal welfare	Political Matters/Actions
+DENK	Promote sustainable development and social justice	Political Matters/Actions
+DENK	Reduce bureaucracy and increase efficiency in government	Political Matters/Actions
+DENK	Encourage cooperation between communities and authorities	Political Matters/Actions
+DENK	Provide affordable housing and address homelessness	Political Matters/Actions
+DENK	Ensure access to quality education and healthcare for all	Political Matters/Actions
+DENK	Foster international cooperation and peaceful conflict resolution	Political Matters/Actions
+DENK	The main issue that DENK wants to address is the growing divide between different groups in society, fueled by discrimination, prejudice, and unequal opportunities. They aim to create a more inclusive and equitable society where everyone has a place and feels valued and respected.	Main Issue
+FVD (Forum Voor Democratie)	Democracy	Ideals
+FVD (Forum Voor Democratie)	Freedom	Ideals
+FVD (Forum Voor Democratie)	National sovereignty	Ideals
+FVD (Forum Voor Democratie)	Traditional values	Ideals
+FVD (Forum Voor Democratie)	Anti-globalism	Ideals
+FVD (Forum Voor Democratie)	Skepticism towards EU and international organizations	Ideals
+FVD (Forum Voor Democratie)	Protection of Dutch culture and identity	Ideals
+FVD (Forum Voor Democratie)	Direct democracy through referendums	Ideals
+FVD (Forum Voor Democratie)	Withdrawal from the European Union	Political Matters/Actions
+FVD (Forum Voor Democratie)	Reducing immigration	Political Matters/Actions
+FVD (Forum Voor Democratie)	Stricter border control	Political Matters/Actions
+FVD (Forum Voor Democratie)	Promoting traditional family values	Political Matters/Actions
+FVD (Forum Voor Democratie)	Encouraging entrepreneurship and economic growth	Political Matters/Actions
+FVD (Forum Voor Democratie)	Reducing bureaucracy and regulations	Political Matters/Actions
+FVD (Forum Voor Democratie)	Increasing investment in education and healthcare	Political Matters/Actions
+FVD (Forum Voor Democratie)	Implementing direct democracy through referendums	Political Matters/Actions
+FVD (Forum Voor Democratie)	Limiting the power of international organizations	Political Matters/Actions
+FVD (Forum Voor Democratie)	Protecting Dutch cultural heritage	Political Matters/Actions
+FVD (Forum Voor Democratie)	Supporting farmers and agriculture	Political Matters/Actions
+FVD (Forum Voor Democratie)	Encouraging sustainable energy sources	Political Matters/Actions
+FVD (Forum Voor Democratie)	Improving public safety and security	Political Matters/Actions
+FVD (Forum Voor Democratie)	Strengthening the rule of law and justice system	Political Matters/Actions
+FVD (Forum Voor Democratie)	Promoting Dutch language and culture	Political Matters/Actions
+FVD (Forum Voor Democratie)	Encouraging civic participation and volunteering	Political Matters/Actions
+FVD (Forum Voor Democratie)	Simplifying taxation and reducing wasteful spending	Political Matters/Actions
+FVD (Forum Voor Democratie)	Enhancing the role of local authorities	Political Matters/Actions
+FVD (Forum Voor Democratie)	Improving infrastructure and transportation	Political Matters/Actions
+FVD (Forum Voor Democratie)	Supporting small businesses and entrepreneurs	Political Matters/Actions
+FVD (Forum Voor Democratie)	The main issue that Forum voor Democratie wants to address is what they see as the threat of globalization and its impact on Dutch society, culture, and economy. They believe that the current political establishment has failed to protect Dutch interests and has surrendered too much power to international organizations and elites. They argue that this has led to problems such as mass immigration, loss of national sovereignty, and economic decline. Their goal is to restore Dutch sovereignty and promote a more independent and self-sufficient nation that prioritizes the needs and values of its citizens.	Main Issue
+GroenLinks-PvdA (GroenLinks- Partij van de Arbeid)	Social justice and equality	Ideals
+GroenLinks-PvdA (GroenLinks- Partij van de Arbeid)	Sustainability and environmental protection	Ideals
+GroenLinks-PvdA (GroenLinks- Partij van de Arbeid)	Democracy and participation	Ideals
+GroenLinks-PvdA (GroenLinks- Partij van de Arbeid)	Solidarity and empathy	Ideals
+GroenLinks-PvdA (GroenLinks- Partij van de Arbeid)	Inclusivity and diversity	Ideals
+GroenLinks-PvdA (GroenLinks- Partij van de Arbeid)	Climate crisis: Reduce CO2 emissions by 60% in 2030 compared to 1990 levels and achieve climate neutrality by 2050.	Political Matters/Actions
+GroenLinks-PvdA (GroenLinks- Partij van de Arbeid)	Energy transition: Accelerate the transition to renewable energy sources and reduce dependence on fossil fuels.	Political Matters/Actions
+GroenLinks-PvdA (GroenLinks- Partij van de Arbeid)	Transportation: Promote electric vehicles, improve public transportation, and invest in cycling infrastructure.	Political Matters/Actions
+GroenLinks-PvdA (GroenLinks- Partij van de Arbeid)	Housing: Encourage sustainable housing, address housing shortages, and combat gentrification.	Political Matters/Actions
+GroenLinks-PvdA (GroenLinks- Partij van de Arbeid)	Healthcare: Improve accessibility and affordability of healthcare, invest in preventive care, and promote mental health support.	Political Matters/Actions
+GroenLinks-PvdA (GroenLinks- Partij van de Arbeid)	Education: Strengthen public education, reduce student debt, and increase funding for schools in disadvantaged areas.	Political Matters/Actions
+GroenLinks-PvdA (GroenLinks- Partij van de Arbeid)	Labor market: Implement a living wage, strengthen workers' rights, and promote social mobility.	Political Matters/Actions
+GroenLinks-PvdA (GroenLinks- Partij van de Arbeid)	Poverty reduction: Combat poverty and inequality through targeted measures, such as increasing benefits and improving access to education and job training.	Political Matters/Actions
+GroenLinks-PvdA (GroenLinks- Partij van de Arbeid)	Gender equality: Promote gender equality in all aspects of society, including equal pay for equal work and combating sexual harassment.	Political Matters/Actions
+GroenLinks-PvdA (GroenLinks- Partij van de Arbeid)	LGBTQ+ rights: Ensure full equality for LGBTQ+ individuals, including marriage equality and adoption rights.	Political Matters/Actions
+GroenLinks-PvdA (GroenLinks- Partij van de Arbeid)	Migration: Create a humane migration policy that focuses on integration and provides safe shelter for refugees.	Political Matters/Actions
+GroenLinks-PvdA (GroenLinks- Partij van de Arbeid)	Integration: Promote integration and social cohesion through language courses, cultural exchange programs, and community initiatives.	Political Matters/Actions
+GroenLinks-PvdA (GroenLinks- Partij van de Arbeid)	Public safety: Increase investment in community policing, address drug addiction and mental health issues, and reduce recidivism rates.	Political Matters/Actions
+GroenLinks-PvdA (GroenLinks- Partij van de Arbeid)	Digitalization: Promote digital literacy, protect privacy and data security, and ensure fair competition in the digital economy.	Political Matters/Actions
+GroenLinks-PvdA (GroenLinks- Partij van de Arbeid)	Agriculture: Support sustainable agriculture practices, promote local food production, and reduce use of pesticides and antibiotics.	Political Matters/Actions
+GroenLinks-PvdA (GroenLinks- Partij van de Arbeid)	International cooperation: Strengthen international cooperation to address global challenges such as climate change, pandemics, and economic inequality.	Political Matters/Actions
+GroenLinks-PvdA (GroenLinks- Partij van de Arbeid)	Peace and security: Invest in peacekeeping missions, conflict resolution mechanisms, and humanitarian aid.	Political Matters/Actions
+GroenLinks-PvdA (GroenLinks- Partij van de Arbeid)	Tax reform: Introduce a progressive tax system that reduces tax evasion and increases revenue for social programs.	Political Matters/Actions
+GroenLinks-PvdA (GroenLinks- Partij van de Arbeid)	Economic growth: Foster sustainable economic growth through innovation, entrepreneurship, and investment in infrastructure.	Political Matters/Actions
+GroenLinks-PvdA (GroenLinks- Partij van de Arbeid)	Animal welfare: Improve animal welfare standards, reduce animal testing, and promote plant-based diets.	Political Matters/Actions
+GroenLinks-PvdA (GroenLinks- Partij van de Arbeid)	The main issue that GroenLinks-PvdA wants to address is the climate crisis and its impact on the environment, society, and the economy. They believe that urgent action is needed to reduce greenhouse gas emissions and transition to a sustainable economy.	Main Issue
+JA21 (Juiste Antwoord 21)	Conservative-liberal values	Ideals
+JA21 (Juiste Antwoord 21)	Individual freedom and responsibility	Ideals
+JA21 (Juiste Antwoord 21)	Decentralization and local decision-making	Ideals
+JA21 (Juiste Antwoord 21)	Empathy and support for those who need it	Ideals
+JA21 (Juiste Antwoord 21)	Protection of small communities and their unique cultures	Ideals
+JA21 (Juiste Antwoord 21)	Encouragement of entrepreneurship and innovation	Ideals
+JA21 (Juiste Antwoord 21)	Belief in the strength of the Dutch society	Ideals
+JA21 (Juiste Antwoord 21)	Reduce bureaucracy and regulations for businesses and individuals	Political Matters/Actions
+JA21 (Juiste Antwoord 21)	Lower taxes to stimulate economic growth and job creation	Political Matters/Actions
+JA21 (Juiste Antwoord 21)	Promote sustainable energy sources and reduce dependence on fossil fuels	Political Matters/Actions
+JA21 (Juiste Antwoord 21)	Improve education by increasing autonomy for schools and teachers	Political Matters/Actions
+JA21 (Juiste Antwoord 21)	Strengthen public safety by investing in police and community policing	Political Matters/Actions
+JA21 (Juiste Antwoord 21)	Introduce a flexible pension system that allows for earlier retirement	Political Matters/Actions
+JA21 (Juiste Antwoord 21)	Encourage home ownership and affordable housing	Political Matters/Actions
+JA21 (Juiste Antwoord 21)	Support farmers and agriculture through subsidies and reducing red tape	Political Matters/Actions
+JA21 (Juiste Antwoord 21)	Invest in infrastructure and public transportation	Political Matters/Actions
+JA21 (Juiste Antwoord 21)	Foster international trade and cooperation	Political Matters/Actions
+JA21 (Juiste Antwoord 21)	Promote cultural and artistic expression	Political Matters/Actions
+JA21 (Juiste Antwoord 21)	Encourage volunteering and community service	Political Matters/Actions
+JA21 (Juiste Antwoord 21)	Provide support for small businesses and startups	Political Matters/Actions
+JA21 (Juiste Antwoord 21)	Increase transparency and accountability in government spending	Political Matters/Actions
+JA21 (Juiste Antwoord 21)	Allow for more direct democracy through referendums and citizen initiatives	Political Matters/Actions
+JA21 (Juiste Antwoord 21)	Implement a fair and efficient healthcare system	Political Matters/Actions
+JA21 (Juiste Antwoord 21)	Address the nitrogen crisis and protect the environment	Political Matters/Actions
+JA21 (Juiste Antwoord 21)	Invest in digital infrastructure and improve access to high-speed internet	Political Matters/Actions
+JA21 (Juiste Antwoord 21)	Encourage lifelong learning and professional development	Political Matters/Actions
+JA21 (Juiste Antwoord 21)	Combat discrimination and promote equality for all citizens	Political Matters/Actions
+JA21 (Juiste Antwoord 21)	The main issue that JA21 wants to address is the lack of clear vision and leadership in Dutch politics, which has resulted in a passive and unresponsive government that does not effectively serve the needs of its citizens.	Main Issue
+NSC (Nieuw Sociaal Contract)	Improving the standard of living for all citizens	Ideals
+NSC (Nieuw Sociaal Contract)	Reducing inequality and poverty	Ideals
+NSC (Nieuw Sociaal Contract)	Strengthening democracy and increasing citizen participation	Ideals
+NSC (Nieuw Sociaal Contract)	Protecting the environment and promoting sustainable development	Ideals
+NSC (Nieuw Sociaal Contract)	Encouraging social cohesion and diversity	Ideals
+NSC (Nieuw Sociaal Contract)	Promoting education and lifelong learning	Ideals
+NSC (Nieuw Sociaal Contract)	Supporting entrepreneurship and innovation	Ideals
+NSC (Nieuw Sociaal Contract)	Ensuring good governance and fighting corruption	Ideals
+NSC (Nieuw Sociaal Contract)	Introducing a basic income guarantee for all citizens	Political Matters/Actions
+NSC (Nieuw Sociaal Contract)	Increasing the minimum wage and indexation	Political Matters/Actions
+NSC (Nieuw Sociaal Contract)	Implementing a fair tax system	Political Matters/Actions
+NSC (Nieuw Sociaal Contract)	Investing in public services such as healthcare, education, and infrastructure	Political Matters/Actions
+NSC (Nieuw Sociaal Contract)	Encouraging renewable energy and reducing carbon emissions	Political Matters/Actions
+NSC (Nieuw Sociaal Contract)	Implementing a comprehensive approach to address climate change	Political Matters/Actions
+NSC (Nieuw Sociaal Contract)	Promoting affordable housing and tackling homelessness	Political Matters/Actions
+NSC (Nieuw Sociaal Contract)	Strengthening labor rights and collective bargaining	Political Matters/Actions
+NSC (Nieuw Sociaal Contract)	Improving access to quality care and support for vulnerable groups	Political Matters/Actions
+NSC (Nieuw Sociaal Contract)	Enhancing regional development and cooperation	Political Matters/Actions
+NSC (Nieuw Sociaal Contract)	Fostering international cooperation and solidarity	Political Matters/Actions
+NSC (Nieuw Sociaal Contract)	Improving animal welfare and protecting nature reserves	Political Matters/Actions
+NSC (Nieuw Sociaal Contract)	Combating discrimination and promoting equal opportunities	Political Matters/Actions
+NSC (Nieuw Sociaal Contract)	Simplifying administrative processes and reducing bureaucracy	Political Matters/Actions
+NSC (Nieuw Sociaal Contract)	Encouraging civic engagement and community involvement	Political Matters/Actions
+NSC (Nieuw Sociaal Contract)	Improving road safety and investing in sustainable transportation	Political Matters/Actions
+NSC (Nieuw Sociaal Contract)	Supporting cultural diversity and arts and culture initiatives	Political Matters/Actions
+NSC (Nieuw Sociaal Contract)	Providing resources for mental health care and suicide prevention	Political Matters/Actions
+NSC (Nieuw Sociaal Contract)	Addressing the gender pay gap and promoting gender equality	Political Matters/Actions
+NSC (Nieuw Sociaal Contract)	Implementing measures against money laundering and financial crime	Political Matters/Actions
+NSC (Nieuw Sociaal Contract)	The main issue that the NSC party wants to address is the growing wealth gap between the rich and the poor, which they believe threatens the social contract and the unity of society. They argue that the current economic system has failed to deliver prosperity for all and that a new social contract is needed to ensure that everyone has access to basic needs such as food, shelter, healthcare, and education.	Main Issue
+PvdD (Partij voor de Dieren)	Compassion and empathy towards all living beings	Ideals
+PvdD (Partij voor de Dieren)	Justice and equality for all individuals, regardless of species	Ideals
+PvdD (Partij voor de Dieren)	Sustainability and protection of the environment	Ideals
+PvdD (Partij voor de Dieren)	Transparency and accountability in politics and society	Ideals
+PvdD (Partij voor de Dieren)	Inclusivity and diversity in decision-making processes	Ideals
+PvdD (Partij voor de Dieren)	Animal rights and welfare	Political Matters/Actions
+PvdD (Partij voor de Dieren)	Climate action and environmental protection	Political Matters/Actions
+PvdD (Partij voor de Dieren)	Social justice and inequality reduction	Political Matters/Actions
+PvdD (Partij voor de Dieren)	Improved public transportation and reduced car dependency	Political Matters/Actions
+PvdD (Partij voor de Dieren)	Affordable housing and sustainable urban planning	Political Matters/Actions
+PvdD (Partij voor de Dieren)	Stronger democracy and citizen participation	Political Matters/Actions
+PvdD (Partij voor de Dieren)	Anti-discrimination policies and measures	Political Matters/Actions
+PvdD (Partij voor de Dieren)	Accessible healthcare and mental health support	Political Matters/Actions
+PvdD (Partij voor de Dieren)	Free education and lifelong learning opportunities	Political Matters/Actions
+PvdD (Partij voor de Dieren)	Encouragement of plant-based diets and reducing meat consumption	Political Matters/Actions
+PvdD (Partij voor de Dieren)	Reduction of plastic use and waste	Political Matters/Actions
+PvdD (Partij voor de Dieren)	Support for small businesses and local economies	Political Matters/Actions
+PvdD (Partij voor de Dieren)	Promotion of cycling and walking infrastructure	Political Matters/Actions
+PvdD (Partij voor de Dieren)	Protection of natural resources and wildlife habitats	Political Matters/Actions
+PvdD (Partij voor de Dieren)	Ethical and transparent use of technology	Political Matters/Actions
+PvdD (Partij voor de Dieren)	Strengthening of workers' rights and labor unions	Political Matters/Actions
+PvdD (Partij voor de Dieren)	Encouragement of artistic expression and cultural diversity	Political Matters/Actions
+PvdD (Partij voor de Dieren)	Improved accessibility for people with disabilities	Political Matters/Actions
+PvdD (Partij voor de Dieren)	Reduction of bureaucracy and increased efficiency in government services	Political Matters/Actions
+PvdD (Partij voor de Dieren)	Greater investment in scientific research and innovation	Political Matters/Actions
+PvdD (Partij voor de Dieren)	The main issue that the PvdD wants to address is the lack of consideration for animal welfare and the environment in current political decision-making processes. They argue that the interests of humans and animals should be balanced equally, and that long-term sustainability should be prioritized over short-term economic gain.	Main Issue
+PVV (Partij voor de Vrijheid	National sovereignty and independence	Ideals
+PVV (Partij voor de Vrijheid	Protection of Dutch culture and values	Ideals
+PVV (Partij voor de Vrijheid	Individual freedom and responsibility	Ideals
+PVV (Partij voor de Vrijheid	Limited government intervention in society and economy	Ideals
+PVV (Partij voor de Vrijheid	Priority for the safety and security of citizens	Ideals
+PVV (Partij voor de Vrijheid	Promotion of traditional family values	Ideals
+PVV (Partij voor de Vrijheid	Emphasis on education and integration of immigrants	Ideals
+PVV (Partij voor de Vrijheid	Reduce bureaucracy and increase efficiency in government services	Political Matters/Actions
+PVV (Partij voor de Vrijheid	Introduce binding referendums and citizen initiatives	Political Matters/Actions
+PVV (Partij voor de Vrijheid	Implement direct democracy at the local level	Political Matters/Actions
+PVV (Partij voor de Vrijheid	Increase investment in defense and security measures	Political Matters/Actions
+PVV (Partij voor de Vrijheid	Establish a national police force	Political Matters/Actions
+PVV (Partij voor de Vrijheid	Reintroduce conscription for young people	Political Matters/Actions
+PVV (Partij voor de Vrijheid	Encourage entrepreneurship and reduce regulations on businesses	Political Matters/Actions
+PVV (Partij voor de Vrijheid	Lower taxes and abolish inheritance tax	Political Matters/Actions
+PVV (Partij voor de Vrijheid	Limit immigration and promote assimilation of newcomers	Political Matters/Actions
+PVV (Partij voor de Vrijheid	Restrict benefits for foreigners and introduce a "Dutch first" policy	Political Matters/Actions
+PVV (Partij voor de Vrijheid	Combat climate change skepticism and promote sustainable energy sources	Political Matters/Actions
+PVV (Partij voor de Vrijheid	Support Israel and defend its right to exist	Political Matters/Actions
+PVV (Partij voor de Vrijheid	Withdraw from the EU and establish bilateral trade agreements	Political Matters/Actions
+PVV (Partij voor de Vrijheid	Promote Dutch language and culture through public media	Political Matters/Actions
+PVV (Partij voor de Vrijheid	Increase funding for healthcare and elderly care	Political Matters/Actions
+PVV (Partij voor de Vrijheid	Provide more support for veterans and their families	Political Matters/Actions
+PVV (Partij voor de Vrijheid	Improve infrastructure and public transportation	Political Matters/Actions
+PVV (Partij voor de Vrijheid	Encourage community service and volunteer work	Political Matters/Actions
+PVV (Partij voor de Vrijheid	The main issue that the PVV wants to address is what they perceive as the threat of Islamization and the erosion of Dutch culture and values due to mass immigration and lack of integration. They believe that by promoting a strong national identity, protecting traditional values, and limiting immigration, they can preserve the Netherlands' unique character and way of life.	Main Issue
+SGP (Staatkundig Gereformeerde Partij)	Christian values	Ideals
+SGP (Staatkundig Gereformeerde Partij)	Conservative principles	Ideals
+SGP (Staatkundig Gereformeerde Partij)	Individual responsibility	Ideals
+SGP (Staatkundig Gereformeerde Partij)	Limited government intervention	Ideals
+SGP (Staatkundig Gereformeerde Partij)	Free market economy	Ideals
+SGP (Staatkundig Gereformeerde Partij)	Traditional family values	Ideals
+SGP (Staatkundig Gereformeerde Partij)	National sovereignty	Ideals
+SGP (Staatkundig Gereformeerde Partij)	Rule of law	Ideals
+SGP (Staatkundig Gereformeerde Partij)	Reduce taxes for low-income earners	Political Matters/Actions
+SGP (Staatkundig Gereformeerde Partij)	Simplify the tax system	Political Matters/Actions
+SGP (Staatkundig Gereformeerde Partij)	Abolish the dividend tax	Political Matters/Actions
+SGP (Staatkundig Gereformeerde Partij)	Introduce a flat rate income tax	Political Matters/Actions
+SGP (Staatkundig Gereformeerde Partij)	Reduce government spending	Political Matters/Actions
+SGP (Staatkundig Gereformeerde Partij)	Privatize public services	Political Matters/Actions
+SGP (Staatkundig Gereformeerde Partij)	Promote entrepreneurship	Political Matters/Actions
+SGP (Staatkundig Gereformeerde Partij)	Encourage home ownership	Political Matters/Actions
+SGP (Staatkundig Gereformeerde Partij)	Strengthen law and order	Political Matters/Actions
+SGP (Staatkundig Gereformeerde Partij)	Increase defense spending	Political Matters/Actions
+SGP (Staatkundig Gereformeerde Partij)	Implement a stricter immigration policy	Political Matters/Actions
+SGP (Staatkundig Gereformeerde Partij)	Protect traditional values and norms	Political Matters/Actions
+SGP (Staatkundig Gereformeerde Partij)	Support for farmers and rural areas	Political Matters/Actions
+SGP (Staatkundig Gereformeerde Partij)	Invest in infrastructure	Political Matters/Actions
+SGP (Staatkundig Gereformeerde Partij)	Encourage sustainable energy sources	Political Matters/Actions
+SGP (Staatkundig Gereformeerde Partij)	Promote education and skills development	Political Matters/Actions
+SGP (Staatkundig Gereformeerde Partij)	Foster international trade agreements	Political Matters/Actions
+SGP (Staatkundig Gereformeerde Partij)	Strengthen European cooperation	Political Matters/Actions
+SGP (Staatkundig Gereformeerde Partij)	Enforce strict financial discipline	Political Matters/Actions
+SGP (Staatkundig Gereformeerde Partij)	Return to a balanced budget amendment	Political Matters/Actions
+SGP (Staatkundig Gereformeerde Partij)	The main issue that the SGP wants to address is the perceived threat to traditional Dutch culture and values posed by mass immigration, cultural relativism, and EU centralization. They believe that preserving national identity and promoting conservative values is key to maintaining a strong and cohesive society.	Main Issue
+SP (Socialistische Partij)	Social justice	Ideals
+SP (Socialistische Partij)	Equality	Ideals
+SP (Socialistische Partij)	Solidarity	Ideals
+SP (Socialistische Partij)	Democracy	Ideals
+SP (Socialistische Partij)	Transparency	Ideals
+SP (Socialistische Partij)	Sustainability	Ideals
+SP (Socialistische Partij)	Reduce income inequality by increasing the minimum wage and implementing a maximum wage ratio.	Political Matters/Actions
+SP (Socialistische Partij)	Implement a fair tax system where the wealthy pay their share.	Political Matters/Actions
+SP (Socialistische Partij)	Invest in public services such as education, healthcare, and infrastructure.	Political Matters/Actions
+SP (Socialistische Partij)	Promote sustainable energy and reduce pollution.	Political Matters/Actions
+SP (Socialistische Partij)	Strengthen workers' rights and unionization.	Political Matters/Actions
+SP (Socialistische Partij)	Improve pension benefits and ensure a decent retirement income.	Political Matters/Actions
+SP (Socialistische Partij)	Encourage cooperative ownership and community control of businesses.	Political Matters/Actions
+SP (Socialistische Partij)	Increase funding for arts and culture.	Political Matters/Actions
+SP (Socialistische Partij)	Implement progressive immigration policies and oppose discrimination against minorities.	Political Matters/Actions
+SP (Socialistische Partij)	Support feminist and LGBTQ+ movements and promote gender equality.	Political Matters/Actions
+SP (Socialistische Partij)	Strengthen democratic institutions and increase transparency in government decision-making.	Political Matters/Actions
+SP (Socialistische Partij)	Reduce military spending and invest in peaceful conflict resolution.	Political Matters/Actions
+SP (Socialistische Partij)	Promote international solidarity and cooperation.	Political Matters/Actions
+SP (Socialistische Partij)	Address climate change through drastic measures such as reducing meat consumption and promoting electric vehicles.	Political Matters/Actions
+SP (Socialistische Partij)	Ensure affordable housing and address homelessness.	Political Matters/Actions
+SP (Socialistische Partij)	Support small businesses and local economies.	Political Matters/Actions
+SP (Socialistische Partij)	Provide free education and reduce student debt.	Political Matters/Actions
+SP (Socialistische Partij)	Protect the rights of indigenous peoples and promote environmental conservation.	Political Matters/Actions
+SP (Socialistische Partij)	Implement harm reduction strategies for drug addiction and promote evidence-based drug policy.	Political Matters/Actions
+SP (Socialistische Partij)	Oppose privatization of public services and promote public ownership.	Political Matters/Actions
+SP (Socialistische Partij)	he main issue that the SP wants to address is the growing wealth gap between the rich and the poor, which they believe threatens the stability and cohesion of society. They argue that the current economic system prioritizes profits over people and that it needs to be transformed to serve the common good.	Political Matters/Actions
+VOLT	Democracy	Ideals
+VOLT	Participation	Ideals
+VOLT	Inclusivity	Ideals
+VOLT	Sustainability	Ideals
+VOLT	Transparency	Ideals
+VOLT	Accountability	Ideals
+VOLT	Equality	Ideals
+VOLT	Social justice	Ideals
+VOLT	Introduction of a participatory budgeting system	Political Matters/Actions
+VOLT	Creation of a national framework for citizen initiatives	Political Matters/Actions
+VOLT	Strengthening local democracy through the election of mayors by residents	Political Matters/Actions
+VOLT	Encouragement of civic participation in decision-making processes	Political Matters/Actions
+VOLT	Promotion of sustainable energy transition	Political Matters/Actions
+VOLT	Implementation of a comprehensive approach to spatial planning	Political Matters/Actions
+VOLT	Development of a long-term vision for the Netherlands' role in Europe and the world	Political Matters/Actions
+VOLT	Strengthening of European cooperation on issues such as climate change, migration, and economic inequality	Political Matters/Actions
+VOLT	Establishment of a fair tax system	Political Matters/Actions
+VOLT	Reduction of bureaucracy for citizens and businesses	Political Matters/Actions
+VOLT	Simplification of government structures	Political Matters/Actions
+VOLT	Increased investment in education and skills development	Political Matters/Actions
+VOLT	Support for entrepreneurship and innovation	Political Matters/Actions
+VOLT	Encouragement of cultural diversity and artistic expression	Political Matters/Actions
+VOLT	Protection of human rights and rule of law	Political Matters/Actions
+VOLT	Gender equality and emancipation	Political Matters/Actions
+VOLT	LGBTIQ+ rights	Political Matters/Actions
+VOLT	Accessibility and inclusiveness for people with disabilities	Political Matters/Actions
+VOLT	Stronger regional development and cooperation	Political Matters/Actions
+VOLT	Greater transparency and accountability in government	Political Matters/Actions
+VOLT	Fighting climate change and a strong united Europe	Main Issue
+VVD (Volkspartij voor Vrijheid en Democratie)	Freedom	Ideals
+VVD (Volkspartij voor Vrijheid en Democratie)	Democracy	Ideals
+VVD (Volkspartij voor Vrijheid en Democratie)	Individual responsibility	Ideals
+VVD (Volkspartij voor Vrijheid en Democratie)	Entrepreneurship	Ideals
+VVD (Volkspartij voor Vrijheid en Democratie)	Innovation	Ideals
+VVD (Volkspartij voor Vrijheid en Democratie)	Sustainability	Ideals
+VVD (Volkspartij voor Vrijheid en Democratie)	Equality of opportunity	Ideals
+VVD (Volkspartij voor Vrijheid en Democratie)	Social cohesion	Ideals
+VVD (Volkspartij voor Vrijheid en Democratie)	Reduce taxes for citizens and businesses	Political Matters/Actions
+VVD (Volkspartij voor Vrijheid en Democratie)	Simplify regulations and reduce bureaucracy	Political Matters/Actions
+VVD (Volkspartij voor Vrijheid en Democratie)	Promote entrepreneurship and innovation	Political Matters/Actions
+VVD (Volkspartij voor Vrijheid en Democratie)	Encourage sustainable energy transition	Political Matters/Actions
+VVD (Volkspartij voor Vrijheid en Democratie)	Improve education and invest in talent development	Political Matters/Actions
+VVD (Volkspartij voor Vrijheid en Democratie)	Strengthen public healthcare and social security systems	Political Matters/Actions
+VVD (Volkspartij voor Vrijheid en Democratie)	Increase investment in infrastructure and mobility	Political Matters/Actions
+VVD (Volkspartij voor Vrijheid en Democratie)	Support urban development and revitalization of city centers	Political Matters/Actions
+VVD (Volkspartij voor Vrijheid en Democratie)	Encourage home ownership and affordable housing	Political Matters/Actions
+VVD (Volkspartij voor Vrijheid en Democratie)	Combat climate change and promote environmental protection	Political Matters/Actions
+VVD (Volkspartij voor Vrijheid en Democratie)	Enhance international cooperation and European integration	Political Matters/Actions
+VVD (Volkspartij voor Vrijheid en Democratie)	Strengthen rule of law and judicial system	Political Matters/Actions
+VVD (Volkspartij voor Vrijheid en Democratie)	Promote active civic participation and democratic renewal	Political Matters/Actions
+VVD (Volkspartij voor Vrijheid en Democratie)	Address poverty and inequality through targeted policies	Political Matters/Actions
+VVD (Volkspartij voor Vrijheid en Democratie)	Improve relations between the Netherlands and its Caribbean territories	Political Matters/Actions
+VVD (Volkspartij voor Vrijheid en Democratie)	Develop a national strategy for artificial intelligence and digital transformation	Political Matters/Actions
+VVD (Volkspartij voor Vrijheid en Democratie)	Encourage responsible use of data and technology	Political Matters/Actions
+VVD (Volkspartij voor Vrijheid en Democratie)	Strengthen cybersecurity measures	Political Matters/Actions
+VVD (Volkspartij voor Vrijheid en Democratie)	Support cultural diversity and creative industries	Political Matters/Actions
+VVD (Volkspartij voor Vrijheid en Democratie)	Encourage sports and physical activity	Political Matters/Actions
+VVD (Volkspartij voor Vrijheid en Democratie)	The main issue that the VVD wants to address is the need for a strong and sustainable economy that benefits all citizens, while ensuring a high quality of life and protecting the environment. They believe that by promoting entrepreneurship, innovation, and individual freedom, they can create a more prosperous and equitable society.	Main Issue
+D66 (Democraten 66)	Freedom	Ideals
+D66 (Democraten 66)	Equality	Ideals
+D66 (Democraten 66)	Solidarity	Ideals
+D66 (Democraten 66)	Sustainability	Ideals
+D66 (Democraten 66)	Open society	Ideals
+D66 (Democraten 66)	European integration	Ideals
+D66 (Democraten 66)	International cooperation	Ideals
+D66 (Democraten 66)	Rule of law	Ideals
+D66 (Democraten 66)	Climate action and energy transition	Political Matters/Actions
+D66 (Democraten 66)	Investment in education and skills development	Political Matters/Actions
+D66 (Democraten 66)	Strengthening of social cohesion and combating poverty	Political Matters/Actions
+D66 (Democraten 66)	Improving public healthcare and accessibility	Political Matters/Actions
+D66 (Democraten 66)	Promoting entrepreneurship and innovation	Political Matters/Actions
+D66 (Democraten 66)	Encouraging participation and diversity in politics	Political Matters/Actions
+D66 (Democraten 66)	Strengthening democracy and fighting populism	Political Matters/Actions
+D66 (Democraten 66)	Enhancing security and justice	Political Matters/Actions
+D66 (Democraten 66)	Supporting international development and cooperation	Political Matters/Actions
+D66 (Democraten 66)	Protecting human rights and minorities	Political Matters/Actions
+D66 (Democraten 66)	Encouraging sustainable agriculture and food production	Political Matters/Actions
+D66 (Democraten 66)	Fostering a circular economy	Political Matters/Actions
+D66 (Democraten 66)	Investing in infrastructure and mobility	Political Matters/Actions
+D66 (Democraten 66)	Promoting cultural diversity and arts	Political Matters/Actions
+D66 (Democraten 66)	Strengthening EU integration and cooperation	Political Matters/Actions
+D66 (Democraten 66)	Addressing the COVID-19 pandemic and future crises	Political Matters/Actions
+D66 (Democraten 66)	Reducing bureaucracy and increasing efficiency	Political Matters/Actions
+D66 (Democraten 66)	Fighting discrimination and promoting equality	Political Matters/Actions
+D66 (Democraten 66)	Supporting scientific research and innovation	Political Matters/Actions
+D66 (Democraten 66)	Encouraging active citizenship and community engagement	Political Matters/Actions
+D66 (Democraten 66)	The main issue that D66 wants to address is the need for a strong, united, and progressive Europe that can effectively tackle global challenges such as climate change, economic inequality, and political instability. They believe that by working together across borders and sectors, Europe can become a role model for a more sustainable, equitable, and just world.	Main Issue
