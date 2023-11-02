@@ -14,7 +14,7 @@ from langchain.text_splitter import CharacterTextSplitter
 from backend.prompt_template import START_UP_MESSAGE, VOTER_PROFILE_1, VOTER_PROFILE_2, VOTER_PROFILE_3, base_prompt
 from langchain.vectorstores import Chroma
 from langchain.chains import RetrievalQA
-from backend.custom_huggingchat import CustomHuggingChat
+from backend.custom_huggingchat import HuggingChat
 from langchain.embeddings import HuggingFaceHubEmbeddings
 import pdfplumber
 import docx2txt
@@ -53,7 +53,7 @@ st.markdown('<style>.css-w770g5{\
 
 
 
-# Sidebar contents for logIN, choose plugin, and export chat
+# Sidebar for login and voter profile input
 with st.sidebar:
     st.title('Kies wijzer, gebruik kieswAIzer 🧠')
     
@@ -121,7 +121,7 @@ with st.sidebar:
                     if 'past' not in st.session_state:
                         st.session_state['past'] = ["I'm ready!"]
 
-                    st.session_state['LLM'] =  CustomHuggingChat(email=st.session_state['hf_email'], psw=st.session_state['hf_pass'])
+                    st.session_state['LLM'] =  HuggingChat(email=st.session_state['hf_email'], psw=st.session_state['hf_pass'])
                     
                     st.experimental_rerun()
                         
@@ -286,6 +286,7 @@ def generate_response(prompt):
             # Process below applies to normal user mode
             context = f"User: {st.session_state['past'][-1]}\nBot: {st.session_state['generated'][-1]}\n"
             with st.spinner('Comparing your voter profile with party manifestos...'):
+                print('PROMPT:-----------',prompt, "ÇONTEXT: ------------------", context,"VPROFILE: ------------------", voter_profile )
                 prompt = base_prompt(prompt, context, voter_profile)
                 result = st.session_state['pdf']({"query": prompt})
                 solution = result["result"]
@@ -332,6 +333,8 @@ def generate_response(prompt):
 with response_container:
     if input_text is not None and 'hf_email' in st.session_state and 'hf_pass' in st.session_state:
         response = generate_response(input_text)
+        print(input_text)
+        print(response)
         st.session_state.past.append(input_text)
         st.session_state.generated.append(response)
     
